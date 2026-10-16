@@ -1,0 +1,734 @@
+
+/* ===== data.js ===== */
+window.BP={brand:'BoundaryPro Fencing',tagline:'Secure. Private. Built to Last.',city:'Coimbatore',state:'Tamil Nadu',country:'India',phone:'+919876543210',displayPhone:'+91 98765 43210',whatsapp:'919876543210',email:'hello@boundarypro.example',address:'24 Cedar Industrial Road, Coimbatore, Tamil Nadu 641001',hours:'Mon-Sat 9:00 AM - 6:00 PM',areas:['Coimbatore','Tiruppur','Pollachi','Mettupalayam'],social:{facebook:'https://facebook.com/',instagram:'https://instagram.com/',youtube:'https://youtube.com/',whatsapp:'https://wa.me/919876543210',twitter:'https://twitter.com/'},products:[{"id": "timber-privacy", "name": "Timber Privacy", "material": "timber", "description": "Solid cedar board fencing for secluded gardens.", "height": "1.2-2.4 m", "life": "15-20 yrs", "maintenance": "Medium", "security": 4, "price": 2800, "image": "assets/img/product-timber-privacy.webp"}, {"id": "picket", "name": "Classic Picket", "material": "timber", "description": "Welcoming boundary with traditional timber pickets.", "height": "0.9-1.5 m", "life": "12-18 yrs", "maintenance": "Medium", "security": 2, "price": 1900, "image": "assets/img/product-picket.webp"}, {"id": "chain-link", "name": "Galvanised Chain-Link", "material": "chain", "description": "Flexible perimeter protection for large plots.", "height": "1.2-3 m", "life": "15-25 yrs", "maintenance": "Low", "security": 3, "price": 1100, "image": "assets/img/product-chain-link.webp"}, {"id": "welded-mesh", "name": "Welded Mesh Panel", "material": "chain", "description": "Rigid anti-climb mesh for commercial sites.", "height": "1.5-3 m", "life": "20-30 yrs", "maintenance": "Low", "security": 5, "price": 2100, "image": "assets/img/product-welded-mesh.webp"}, {"id": "aluminium", "name": "Aluminium Slat", "material": "metal", "description": "Contemporary low-upkeep privacy screening.", "height": "1.2-2.1 m", "life": "25+ yrs", "maintenance": "Low", "security": 4, "price": 3900, "image": "assets/img/product-aluminium.webp"}, {"id": "wrought-iron", "name": "Ornamental Iron", "material": "metal", "description": "Statement security with classic metalwork.", "height": "1.2-2.4 m", "life": "25+ yrs", "maintenance": "Medium", "security": 5, "price": 4500, "image": "assets/img/product-wrought-iron.webp"}, {"id": "vinyl-pvc", "name": "Vinyl Privacy", "material": "vinyl", "description": "Easy-care solid panels for family homes.", "height": "1.5-2.1 m", "life": "20+ yrs", "maintenance": "Low", "security": 3, "price": 3300, "image": "assets/img/product-vinyl-pvc.webp"}, {"id": "composite", "name": "Composite Board", "material": "composite", "description": "Wood-look panels built for changing weather.", "height": "1.5-2.4 m", "life": "20+ yrs", "maintenance": "Low", "security": 4, "price": 4200, "image": "assets/img/product-composite.webp"}, {"id": "steel-security", "name": "Steel Security Palisade", "material": "metal", "description": "Strong vertical barrier for industrial sites.", "height": "1.8-3 m", "life": "25+ yrs", "maintenance": "Low", "security": 5, "price": 3400, "image": "assets/img/product-steel-security.webp"}, {"id": "farm-post", "name": "Farm Post & Rail", "material": "timber", "description": "Long-run agricultural and livestock boundary.", "height": "1-1.5 m", "life": "12-18 yrs", "maintenance": "Medium", "security": 2, "price": 1450, "image": "assets/img/product-farm-post.webp"}, {"id": "garden-lattice", "name": "Garden Lattice", "material": "timber", "description": "Airy garden separation for planted spaces.", "height": "0.9-1.8 m", "life": "12-15 yrs", "maintenance": "Medium", "security": 1, "price": 2100, "image": "assets/img/product-garden-lattice.webp"}, {"id": "cedar-slats", "name": "Cedar Horizontal Slats", "material": "timber", "description": "Architectural timber slats with clean lines.", "height": "1.2-2.1 m", "life": "15-20 yrs", "maintenance": "Medium", "security": 3, "price": 3600, "image": "assets/img/product-cedar-slats.webp"}],gallery:[{"id": "gallery-residential-1", "category": "Residential", "image": "assets/img/gallery-luxury-timber.webp", "location": "Coimbatore", "type": "Luxury residential timber fencing"}, {"id": "gallery-residential-2", "category": "Residential", "image": "assets/img/gallery-aluminium-villa.webp", "location": "Tiruppur", "type": "Modern aluminium villa boundary"}, {"id": "gallery-residential-3", "category": "Residential", "image": "assets/img/gallery-white-picket.webp", "location": "Pollachi", "type": "White picket garden fence"}, {"id": "gallery-commercial-1", "category": "Commercial", "image": "assets/img/gallery-welded-mesh.webp", "location": "Coimbatore", "type": "Commercial welded mesh perimeter"}, {"id": "gallery-commercial-2", "category": "Commercial", "image": "assets/img/gallery-industrial-steel.webp", "location": "Tiruppur", "type": "Industrial steel security fencing"}, {"id": "gallery-commercial-3", "category": "Commercial", "image": "assets/img/gallery-agricultural-chain.webp", "location": "Pollachi", "type": "Agricultural chain-link boundary"}, {"id": "gallery-security-1", "category": "Security", "image": "assets/img/gallery-wrought-iron.webp", "location": "Coimbatore", "type": "Decorative wrought iron entrance"}, {"id": "gallery-security-2", "category": "Security", "image": "assets/img/gallery-security-gate.webp", "location": "Tiruppur", "type": "Security gate installation"}, {"id": "gallery-security-3", "category": "Security", "image": "assets/img/gallery-composite-privacy.webp", "location": "Pollachi", "type": "Composite privacy fence"}, {"id": "gallery-repairs-1", "category": "Repairs", "image": "assets/img/gallery-storm-repair.webp", "location": "Coimbatore", "type": "Storm-damaged fence repair"}, {"id": "gallery-repairs-2", "category": "Repairs", "image": "assets/img/gallery-restored-metal.webp", "location": "Tiruppur", "type": "Restored metal fence"}, {"id": "gallery-repairs-3", "category": "Repairs", "image": "assets/img/gallery-pvc-residence.webp", "location": "Pollachi", "type": "Residential PVC fencing"}]};
+;
+
+/* ===== auth.js ===== */
+window.BPAuth=(()=>{const K='bp-user';function get(){try{return JSON.parse(localStorage.getItem(K)||'null')}catch{return null}}function save(user){try{localStorage.setItem(K,JSON.stringify(user))}catch{} window.dispatchEvent(new Event('bp-auth'));}function logout(){try{for(const s of [localStorage,sessionStorage])for(let i=s.length-1;i>=0;i--){const k=s.key(i);if(k&&k.startsWith('bp-')&&k!=='bp-theme'&&k!=='bp-rtl'&&k!=='bp-bookings')s.removeItem(k)}}catch{} window.dispatchEvent(new Event('bp-auth'));try{sessionStorage.setItem('bp-logout-toast','1')}catch{}location.replace('index.html')}window.addEventListener('storage',e=>{if(e.key===K)window.dispatchEvent(new Event('bp-auth'))});return{get,save,logout}})();
+;
+
+/* ===== components.js ===== */
+window.BPUI=(()=>{const b=window.BP;const current=location.pathname.split('/').pop()||'index.html';const authPage=['login.html','register.html'].includes(current);const links=[['index.html','Home'],['services.html','Services'],['products.html','Products'],['pricing.html','Pricing'],['gallery.html','Gallery'],['about.html','About'],['blog.html','Blog'],['contact.html','Contact']];const homeDropdown=`<div class="home-nav-dropdown"><button class="nav-link home-nav-trigger ${['index.html','home-commercial.html'].includes(current)?'active':''}" type="button" aria-haspopup="true" aria-expanded="false" data-home-toggle>Home <i class="bi bi-chevron-down"></i></button><div class="home-nav-menu"><a href="index.html" ${current==='index.html'?'aria-current="page"':''}>Residential & Privacy Fencing</a><a href="home-commercial.html" ${current==='home-commercial.html'?'aria-current="page"':''}>Commercial & Security Fencing</a></div></div>`;const nav=homeDropdown+links.filter(([h])=>h!=='index.html').map(([h,n])=>`<a class="nav-link ${current===h?'active':''}" ${current===h?'aria-current="page"':''} href="${h}">${n}</a>`).join('');const brand=`<a class="brand" href="index.html" aria-label="BoundaryPro Fencing home"><img src="assets/img/logo.svg" alt="" width="46" height="46"><span class="brand-words"><strong>BoundaryPro</strong><small>Fencing</small></span></a>`;const controls=`<button class="icon-btn" data-theme-toggle aria-label="Toggle colour theme" title="Light or dark theme"><i class="bi bi-moon-stars"></i></button><button class="icon-btn" data-rtl-toggle aria-label="Toggle text direction" title="RTL or LTR">LTR</button>`;function header(){const h=document.querySelector('#site-header');if(!h)return;h.innerHTML=`<header class="site-header"><div class="container header-inner">${brand}${authPage?`<div class="header-controls">${controls}</div>`:`<nav class="desktop-links" aria-label="Main navigation">${nav}</nav><div class="header-controls">${controls}<div class="auth-slot"></div><button class="icon-btn hamburger" aria-label="Open menu" aria-expanded="false" data-menu-toggle><i class="bi bi-list"></i></button></div>`}</div>${authPage?'':`<div class="mobile-menu" id="mobile-menu"><nav aria-label="Mobile navigation">${nav}<div class="mobile-auth"></div></nav></div>`}</header>`;renderAuth()}function renderAuth(){const u=BPAuth.get();const a=u?`<div class="profile-wrap"><button class="btn btn-outline profile-trigger" aria-haspopup="menu" aria-expanded="false" data-profile-toggle>${esc(u.name)} <i class="bi bi-chevron-down"></i></button><div class="profile-menu" role="menu"><a role="menuitem" href="profile.html">Profile</a><button role="menuitem" data-signout>Sign out</button></div></div>`:`<a class="btn btn-primary nav-auth" href="login.html">Sign In</a>`;document.querySelectorAll('.auth-slot,.mobile-auth').forEach(e=>e.innerHTML=a)}function footer(){
+  const f=document.querySelector('#site-footer');
+  if(!f)return;
+  // Local SVG social marks: crisp and consistent without reliance on external icon fonts.
+  const socials=[
+    {key:'facebook',label:'Facebook',icon:'<path d="M14.2 21v-7.8h2.65l.4-3.15H14.2V8.03c0-.91.28-1.54 1.58-1.54h1.67V3.67a22 22 0 0 0-2.44-.13c-2.42 0-4.07 1.48-4.07 4.2v2.31H8.2v3.15h2.74V21h3.26Z" fill="currentColor"/>'},
+    {key:'instagram',label:'Instagram',icon:'<rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5" fill="none" stroke="currentColor" stroke-width="1.9"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.9"/><circle cx="17.4" cy="6.7" r="1.2" fill="currentColor"/>'},
+    {key:'youtube',label:'YouTube',icon:'<rect x="2.1" y="5.1" width="19.8" height="13.8" rx="4.1" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m10 8.8 5.4 3.2-5.4 3.2V8.8Z" fill="currentColor"/>'},
+    {key:'whatsapp',label:'WhatsApp',icon:'<path d="M20.1 11.7a8.15 8.15 0 0 1-12 7.2l-4.7 1.25 1.3-4.48a8.16 8.16 0 1 1 15.4-3.97Z" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"/><path d="M8.4 8.4c-.46.2-.78.83-.7 1.38.27 1.75 2.69 4.61 4.54 5.32.77.3 1.64.36 2.25-.05l.92-1.13-2.18-1.08-.93.91c-1.43-.59-2.23-1.48-2.85-2.86l.84-.8L9.15 8.1l-.75.3Z" fill="currentColor"/>'},
+    {key:'twitter',label:'X (formerly Twitter)',icon:'<path d="M17.6 3.5h2.6l-5.7 6.5 6.7 10.5h-5.25l-4.1-6.35-5.6 6.35H3.6l6.15-7L3.3 3.5h5.37l3.7 5.75L17.6 3.5Zm-.93 15.2h1.46L7.82 5.2H6.25l10.42 13.5Z" fill="currentColor"/>'}
+  ];
+  const socialLinks=socials.filter(item=>b.social?.[item.key]).map(item=>
+    `<a class="bp-social-link" href="${esc(b.social[item.key])}" target="_blank" rel="noopener noreferrer" aria-label="${item.label} — opens in a new tab" title="${item.label}"><svg viewBox="0 0 24 24" width="21" height="21" aria-hidden="true" focusable="false">${item.icon}</svg></a>`
+  ).join('');
+  f.innerHTML=`<footer class="site-footer bp-footer bp-footer-reference" aria-label="Site footer">
+    <div class="container bp-reference-grid">
+      <div class="bp-reference-brand">
+        <div class="bp-footer-brandmark">${brand}</div>
+        <p>${esc(b.tagline)} Professional fence installation, careful repairs and clear, measurement-led quotes for every boundary.</p>
+        <p class="bp-social-heading">FOLLOW US</p>
+        <div class="social bp-footer-social" aria-label="Social media links">${socialLinks}</div>
+      </div>
+      <nav class="bp-reference-col" aria-label="Footer quick links">
+        <h3>QUICK LINKS</h3>
+        <a href="index.html">Home</a><a href="about.html">About Us</a><a href="services.html">Services</a><a href="products.html">Products</a><a href="gallery.html">Gallery</a><a href="pricing.html">Pricing</a><a href="contact.html">Contact</a>
+      </nav>
+      <nav class="bp-reference-col" aria-label="Footer service links">
+        <h3>OUR SERVICES</h3>
+        <a href="services.html">Fence Installation</a><a href="services.html">Fence Repair</a><a href="services.html">Privacy Fencing</a><a href="services.html">Commercial Fencing</a><a href="services.html">Gate Solutions</a><a href="blog.html">Fencing Guides</a>
+      </nav>
+      <div class="bp-reference-col bp-reference-contact">
+        <h3>CONTACT US</h3>
+        <a href="contact.html"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 10a8 8 0 0 1-8 8c-4.4 0-8-3.6-8-8a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/><path d="M8 17.2 12 22l4-4.8"/></svg><span>Coimbatore, Tamil Nadu, India</span></a>
+        <a href="mailto:${esc(b.email)}"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg><span>${esc(b.email)}</span></a>
+        <a href="tel:${esc(b.phone)}"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.6 3.6 9 3l2.4 4.5-2.1 1.9a14 14 0 0 0 5.3 5.3l1.9-2.1L21 15l-.6 2.4a4.3 4.3 0 0 1-4.5 3.3C9 20.2 3.8 15 3.3 8.1a4.3 4.3 0 0 1 3.3-4.5Z"/></svg><span>${esc(b.displayPhone)}</span></a>
+        <a href="contact.html"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.4 2.2"/></svg><span>Contact us for appointments</span></a>
+      </div>
+    </div>
+    <section class="bp-reference-newsletter" aria-labelledby="bp-newsletter-title">
+      <div class="container bp-newsletter-row">
+        <div class="bp-newsletter-copy">
+          <span class="bp-newsletter-eyebrow">FENCING TIPS & NEWS</span>
+          <h3 id="bp-newsletter-title">Email Updates</h3>
+          <p>Occasional fence care tips, material guides and project inspiration, all in one place.</p>
+        </div>
+        <div class="bp-newsletter-action">
+          <form id="bp-footer-newsletter" class="bp-newsletter-form" novalidate>
+            <label class="sr-only" for="bp-footer-email">Email address for updates</label>
+            <div class="bp-newsletter-input-wrap"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg><input id="bp-footer-email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="Enter your email address" maxlength="254" required></div>
+            <button type="submit"><span>Subscribe</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
+          </form>
+          <p class="bp-newsletter-feedback" role="status" aria-live="polite" id="bp-newsletter-feedback">Demo form — saved locally in your browser; no emails are sent.</p>
+        </div>
+      </div>
+    </section>
+    <div class="bp-reference-bottom"><div class="container"><span>&copy; ${new Date().getFullYear()} ${esc(b.brand)}. All rights reserved.</span><div class="bp-footer-legal"><a href="privacy-policy.html">Privacy Policy</a><a href="terms-of-service.html">Terms of Service</a></div></div></div>
+  </footer>`;
+  const form=f.querySelector('#bp-footer-newsletter');
+  const input=f.querySelector('#bp-footer-email');
+  const msg=f.querySelector('#bp-newsletter-feedback');
+  input?.addEventListener('input',()=>{
+    input.removeAttribute('aria-invalid');
+    if(msg.dataset.state==='error'){
+      msg.dataset.state='';
+      msg.textContent='Demo form — saved locally in your browser; no emails are sent.';
+    }
+  });
+  form?.addEventListener('submit',e=>{
+    e.preventDefault();
+    const email=input.value.trim().toLowerCase();
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){
+      input.setAttribute('aria-invalid','true');
+      msg.dataset.state='error';
+      msg.textContent='Please enter a valid email address.';
+      input.focus();
+      return;
+    }
+    input.removeAttribute('aria-invalid');
+    try{
+      const key='bp-newsletter-demo';
+      const list=JSON.parse(localStorage.getItem(key)||'[]');
+      if(!Array.isArray(list))throw Error('Invalid storage');
+      if(!list.includes(email))list.push(email);
+      localStorage.setItem(key,JSON.stringify(list));
+      msg.dataset.state='success';
+      msg.textContent='Subscribed in this browser (demo only). No emails are sent.';
+      form.reset();
+      toast('Email saved locally — demo only');
+    }catch(err){
+      msg.dataset.state='error';
+      msg.textContent='Unable to save in this browser. Please try again.';
+    }
+  });
+}
+function esc(v){return String(v||'').replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[x]))}function toast(s){let t=document.getElementById('bp-toasts');if(!t)return;let n=document.createElement('div');n.className='bp-toast';n.setAttribute('role','status');n.setAttribute('aria-live','polite');n.innerHTML=`<span>${esc(s)}</span><button aria-label="Close notification" class="toast-close">&times;</button>`;n.querySelector('button').onclick=()=>n.remove();t.append(n);setTimeout(()=>n.remove(),3300)}function hero(title,desc,img='hero-products',tag='BOUNDARYPRO FENCING'){
+ const file=img.includes('.')?img:(img.endsWith('.webp')?img:(img+'.webp'));
+ const page=location.pathname.split('/').pop()||'index.html';
+ const params=new URLSearchParams(location.search);
+ const actions={
+  'about.html':['View Our Services','services.html'],
+  'services.html':['Discuss Your Fence Project','contact.html'],
+  'products.html':['Ask About Materials','contact.html'],
+  'pricing.html':['Get a Tailored Estimate','contact.html'],
+  'gallery.html':['Plan a Similar Project','contact.html'],
+  'blog.html':['Explore Fence Styles','products.html'],
+  'contact.html':['Start Your Request','#booking-form'],
+  'profile.html':['Start a New Request','contact.html'],
+  'privacy-policy.html':['Contact Our Team','contact.html'],
+  'terms-of-service.html':['Contact Our Team','contact.html']
+ };
+ let action=actions[page]||['Discuss Your Project','contact.html'];
+ if(page==='services.html'&&params.get('service'))action=['Request This Service Quote','contact.html?service='+encodeURIComponent(params.get('service'))];
+ if(page==='blog.html'&&params.get('post'))action=['Browse More Guides','blog.html'];
+ return `<section class="inner-hero" style="background-image:linear-gradient(110deg,rgba(16,42,34,.88),rgba(24,60,50,.72)),url('assets/img/${file}')!important;background-position:center;background-size:cover"><div class="container"><span class="hero-kicker">${tag}</span><h1>${title}</h1><p>${desc}</p><a class="btn btn-primary" href="${action[1]}">${action[0]}</a></div></section>`;
+}function init(){header();footer();document.querySelector('#mobile-actions')?.insertAdjacentHTML('afterbegin',`<a href="tel:${b.phone}" class="btn btn-outline"><i class="bi bi-telephone"></i> Call</a><a href="contact.html" class="btn btn-primary">Book Measurement</a>`);document.querySelector('#site-header')?.addEventListener('click',e=>{if(e.target.closest('[data-home-toggle]')){const d=e.target.closest('.home-nav-dropdown');const v=d.classList.toggle('open');d.querySelector('[data-home-toggle]').setAttribute('aria-expanded',v)}if(e.target.closest('[data-menu-toggle]')){const m=document.querySelector('#mobile-menu'),v=m.classList.toggle('open');document.querySelector('[data-menu-toggle]').setAttribute('aria-expanded',v)}if(e.target.closest('[data-profile-toggle]')){const p=e.target.closest('.profile-wrap');const v=p.classList.toggle('open');p.querySelector('[data-profile-toggle]').setAttribute('aria-expanded',v)}if(e.target.closest('[data-signout]'))BPAuth.logout()});document.addEventListener('click',e=>{if(!e.target.closest('.home-nav-dropdown'))document.querySelectorAll('.home-nav-dropdown').forEach(d=>{d.classList.remove('open');d.querySelector('[data-home-toggle]').setAttribute('aria-expanded','false')});if(!e.target.closest('.profile-wrap'))document.querySelectorAll('.profile-wrap').forEach(p=>p.classList.remove('open'))});document.addEventListener('keydown',e=>{if(e.key==='Escape'){document.querySelectorAll('.home-nav-dropdown').forEach(d=>{d.classList.remove('open');d.querySelector('[data-home-toggle]').setAttribute('aria-expanded','false')});document.querySelectorAll('.profile-wrap').forEach(p=>p.classList.remove('open'));document.querySelector('#mobile-menu')?.classList.remove('open')}});document.querySelectorAll('[data-theme-toggle]').forEach(el=>el.addEventListener('click',()=>{const d=document.documentElement;const dark=!d.classList.contains('dark-mode');d.classList.toggle('dark-mode',dark);d.dataset.bsTheme=dark?'dark':'light';try{localStorage.setItem('bp-theme',dark?'dark':'light')}catch{}updateToggles()}));document.querySelectorAll('[data-rtl-toggle]').forEach(el=>el.addEventListener('click',()=>{const d=document.documentElement;d.dir=d.dir==='rtl'?'ltr':'rtl';try{localStorage.setItem('bp-rtl',d.dir==='rtl'?'true':'false')}catch{}updateToggles()}));window.addEventListener('bp-auth',renderAuth);window.addEventListener('storage',renderAuth);updateToggles();try{if(sessionStorage.getItem('bp-logout-toast')){sessionStorage.removeItem('bp-logout-toast');toast('Signed out successfully')}}catch{}}function updateToggles(){document.querySelectorAll('[data-rtl-toggle]').forEach(e=>e.textContent=document.documentElement.dir==='rtl'?'RTL':'LTR');document.querySelectorAll('[data-theme-toggle] i').forEach(e=>e.className=document.documentElement.classList.contains('dark-mode')?'bi bi-sun':'bi bi-moon-stars')}return{init,toast,hero,esc}})();document.addEventListener('DOMContentLoaded',BPUI.init);
+;
+
+/* ===== main.js ===== */
+document.addEventListener('DOMContentLoaded',()=>{const b=BP,ui=BPUI;const root=document.querySelector('#page-content');const page=location.pathname.split('/').pop()||'index.html';function img(src,alt,cls=''){return `<img class="${cls}" src="${src}" alt="${alt}" loading="lazy" width="700" height="470">`}function card(p,kind='product'){return `<article class="card">${img(p.image,p.name+' fence design')}<div class="card-body"><span class="pill">${p.material}</span><h3>${p.name}</h3><p>${p.description}</p><div class="specs"><span>${p.height}</span><span>${p.life}</span><span>${p.maintenance} upkeep</span></div><p><strong>From ₹${p.price.toLocaleString('en-IN')}/metre</strong></p><div class="actions"><button class="btn btn-outline btn-sm" data-quick="${p.id}">Quick View</button><a class="btn btn-primary btn-sm" href="contact.html?product=${p.id}&service=installation">Request Quote</a></div></div></article>`}function cta(){
+ const page=location.pathname.split('/').pop()||'index.html';
+ const choices={
+  'index.html':['Get a Personalised Quote','contact.html'],
+  'home-commercial.html':['Request a Site Assessment','contact.html?service=installation'],
+  'services.html':['Talk to a Fence Specialist','contact.html'],
+  'products.html':['Get Material Advice','contact.html'],
+  'pricing.html':['Request an Accurate Quote','contact.html'],
+  'gallery.html':['Start a Similar Project','contact.html'],
+  'blog.html':['Ask Our Team','contact.html'],
+  'contact.html':['Complete Your Request','#booking-form']
+ };
+ let action=choices[page]||['Talk to Our Team','contact.html'];
+ if(page==='services.html'&&new URLSearchParams(location.search).has('service'))action=['Enquire About This Service','contact.html?service='+encodeURIComponent(new URLSearchParams(location.search).get('service'))];
+ return `<section class="cta-band"><div class="container"><span class="hero-kicker">START WITH A SITE VISIT</span><h2>Let's get your boundary right.</h2><p>Clear measurements. Straightforward options. No pressure.</p><a class="btn btn-primary btn-lg" href="${action[1]}">${action[0]}</a></div></section>`;
+}function faqs(qs){return `<div class="accordion" id="faq">${qs.map((q,i)=>`<div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button ${i?'collapsed':''}" type="button" data-bs-toggle="collapse" data-bs-target="#faq-${i}" aria-expanded="${!i}">${q[0]}</button></h3><div id="faq-${i}" class="accordion-collapse collapse ${i?'':'show'}" data-bs-parent="#faq"><div class="accordion-body">${q[1]}</div></div></div>`).join('')}</div>`}const faq=[['Is the measurement really free?','Yes. We visit your site, check access, measure the fence line and explain material options before preparing a written quote.'],['How long does installation take?','Small residential projects may take two to four working days after materials arrive. Longer boundaries, custom gates and difficult terrain can take more time.'],['Do you repair existing fences?','Yes. We assess leaning posts, loose panels, corrosion, damaged gates and storm-related damage before recommending repair or replacement.'],['Which fence gives the best privacy?','Solid timber, vinyl privacy and closely spaced composite boards offer strong visual screening. The best option depends on your site and upkeep preferences.'],['Can I choose a matching gate?','Yes. We can plan pedestrian or vehicle gates to match the fence material and required security hardware.'],['Do prices include installation?','Displayed starting rates are indicative material-and-standard-installation estimates per metre. Site conditions, height, foundations and gates affect the final quote.']];
+function commercialHome(){root.innerHTML=`<section class="hero-home hero-commercial"><div class="container hero-split"><div class="hero-copy"><span class="hero-kicker">COMMERCIAL & SECURITY FENCING</span><h1>Protect Every Perimeter. Control Every Entry.</h1><p>Purpose-built welded mesh, chain-link, anti-climb fencing and reinforced gates for factories, warehouses, farms and commercial properties.</p><div class="hero-actions"><a class="btn btn-primary btn-lg" href="contact.html?service=installation">Plan a Security Site Survey</a><a class="btn btn-outline btn-lg" href="products.html?material=metal">Explore Security Fences</a></div><div class="trust-strip"><span><i class="bi bi-shield-lock"></i> Perimeter protection</span><span><i class="bi bi-door-closed"></i> Secure gate access</span><span><i class="bi bi-rulers"></i> Site-specific planning</span></div></div><div class="hero-visual"><img src="assets/img/home-commercial-security-hero.webp" alt="Commercial welded mesh security fence" width="820" height="690" fetchpriority="high"></div></div></section><section class="section"><div class="container"><div class="section-head"><span class="eyebrow">COMMERCIAL SOLUTIONS</span><h2>Serious security. Smart design.</h2><p>From an industrial yard to a large agricultural boundary, we match the right material to your site and security priorities.</p></div><div class="grid grid-3">${[['assets/img/commercial-perimeter.webp','Industrial perimeter fencing','Rigid welded mesh and anti-climb options for warehouses, logistics sites and industrial facilities.','services.html?service=security-fencing'],['assets/img/commercial-agricultural.webp','Chain-link and agricultural boundaries','Flexible, cost-conscious coverage for long property lines, farms and open yards.','services.html?service=farm-boundary'],['assets/img/commercial-reinforced-gates.webp','Reinforced gates and access','Vehicle and pedestrian gates with practical lock, hinge and post reinforcement options.','services.html?service=gate-access']].map(([im,t,d,href])=>`<article class="card">${img(im,t)}<div class="card-body"><h3>${t}</h3><p>${d}</p><div class="actions"><a class="btn btn-outline" href="${href}">View service <i class="bi bi-arrow-right"></i></a></div></div></article>`).join('')}</div></div></section><section class="section section-alt"><div class="container split"><div><span class="eyebrow">BUILT FOR THE SITE</span><h2>Plan security before the first post.</h2><p>We assess boundary length, terrain, access routes, visibility and gate requirements before recommending an appropriate installation approach.</p><div class="grid grid-3">${[['01','Survey'],['02','Specify'],['03','Secure']].map(([n,t])=>`<div><span class="step-num">${n}</span><h3>${t}</h3></div>`).join('')}</div><a class="btn btn-primary" href="contact.html">Schedule a site measurement</a></div><img src="assets/img/commercial-site-planning.webp" width="1400" height="710" loading="lazy" alt="Modern secured property with sturdy metal perimeter fencing"></div></section><section class="section"><div class="container"><div class="section-head"><span class="eyebrow">RECOMMENDED MATERIALS</span><h2>Strong options for demanding boundaries.</h2></div><div class="grid grid-3">${b.products.filter(x=>['metal','chain-link'].includes(x.material)).slice(0,6).map(x=>card(x)).join('')}</div></div></section>${cta()}`}
+function home(){const styles=b.products.slice(0,8);root.innerHTML=`<section class="hero-home"><div class="container hero-split"><div class="hero-copy"><span class="hero-kicker">STEEL & CEDAR / FENCING SPECIALISTS</span><h1>Secure Your Property. Built to Last.</h1><p>Thoughtful fence installation and dependable repairs for homes, farms and commercial properties. From a private garden boundary to a secure industrial perimeter, we build for your site.</p><div class="hero-actions"><a class="btn btn-primary btn-lg" href="contact.html">Book Free Measurement</a><a class="btn btn-outline btn-lg" href="#fence-styles">View Fence Styles</a></div><div class="trust-strip"><span><i class="bi bi-check-circle"></i> 10+ years*</span><span><i class="bi bi-shield-check"></i> 1,200+ installs*</span><span><i class="bi bi-award"></i> Up to 5-year warranty*</span><span><i class="bi bi-clock"></i> Quote within 24h*</span></div></div><div class="hero-visual"><img src="assets/img/home-residential-hero.webp" alt="Luxury residential timber privacy fence" width="820" height="690" fetchpriority="high"></div></div></section><section class="section" id="fence-styles"><div class="container"><div class="section-head"><span class="eyebrow">FENCE STYLES</span><h2>Find the right boundary for your space.</h2><p>From privacy screening to hard-working security panels, explore a finish that fits your property.</p></div><div class="grid grid-4">${styles.map(p=>`<article class="card">${img(`assets/img/style-${p.id}.webp`,p.name+' fencing')}<div class="card-body"><h3>${p.name}</h3><p>Best for: ${p.material==='timber'?'gardens and residential boundaries':p.material==='metal'?'durable security and modern facades':'versatile property protection'}</p>${[['Privacy',p.id==='timber-privacy'?5:p.id==='chain-link'?1:3],['Security',p.security],['Low Maintenance',p.maintenance==='Low'?5:3]].map(([n,v])=>`<div class="rating"><span>${n}</span><b><i style="width:${v*20}%"></i></b></div>`).join('')}<div class="actions"><a class="btn btn-outline btn-sm" href="products.html?material=${p.material}">Explore Style <i class="bi bi-arrow-right"></i></a></div></div></article>`).join('')}</div></div></section><section class="section section-alt"><div class="container split"><div><span class="eyebrow">SECURITY BY DESIGN</span><h2>Built for security, without compromise.</h2><p>Specify the details that matter: anti-climb profiles, concealed fixings, reinforced gates and reliable locks. We can plan CCTV-ready posts and access points from the outset.</p><div class="grid grid-3">${['Anti-climb profiles','Reinforced gates','CCTV-ready posts'].map((n,i)=>`<div><i class="feature-icon bi bi-${['shield-lock','door-closed','camera-video'][i]}"></i><h3>${n}</h3></div>`).join('')}</div></div>${img('assets/img/home1-security-design.webp','High security metal perimeter fence with anti-climb profiles')}</div></section><section class="section"><div class="container"><div class="section-head"><span class="eyebrow">INSTALL & REPAIR</span><h2>New fences. Stronger old ones.</h2></div><div class="grid grid-3">${[['assets/img/home-install.webp','Professional fence installation craftsmanship','Installation','Site planning, foundations, posts, panels and matching gates.','services.html?service=new-installation','Get a Quote'],['assets/img/home-repair.webp','Fencing repairs and post reinforcement','Repairs','Leaning posts, storm damage, rotten panels, rust and gate alignment.','services.html?service=fence-repair','Get a Quote'],['assets/img/home-emergency.webp','BoundaryPro emergency fence response unit','Emergency Response','Secure damaged openings and restore critical boundary protection.','services.html?service=emergency-repair','Request Repair']].map(([im,alt,t,d,href,btn])=>`<article class="card">${img(im,alt)}<div class="card-body"><h3>${t}</h3><p>${d}</p><div class="actions"><a class="btn btn-primary" href="${href}">${btn}</a></div></div></article>`).join('')}</div></div></section><section class="section section-alt"><div class="container"><div class="section-head"><span class="eyebrow">OUR PROCESS</span><h2>Four steps to a better boundary.</h2></div><div class="grid grid-4">${[['01','Book a measurement','Tell us about your site and preferred style.'],['02','Get a clear quote','Review materials, scope and expected schedule.'],['03','Professional installation','We set posts, install panels and finish details.'],['04','Aftercare & warranty','Get maintenance guidance and documented cover.']].map(([n,t,d])=>`<article class="card"><div class="card-body"><span class="step-num">${n}</span><h3>${t}</h3><p>${d}</p></div></article>`).join('')}</div></div></section><section class="section"><div class="container"><div class="section-head"><span class="eyebrow">RECENT WORK</span><h2>Projects that speak for themselves.</h2></div><div class="grid grid-3">${b.gallery.slice(0,3).map(g=>`<article class="card">${img(g.image,g.type+' in '+g.location)}<div class="card-body"><h3>${g.type}</h3><p>${g.location} · ${g.category}</p><a href="gallery.html" class="btn btn-outline">View Gallery</a></div></article>`).join('')}</div></div></section><section class="section section-alt"><div class="container"><div class="section-head"><span class="eyebrow">CUSTOMER STORIES</span><h2>Confidence starts at the boundary.</h2></div><div class="grid grid-3">${[['R. Kumar','Coimbatore','The crew replaced our damaged garden panels and aligned the gate neatly. The quote was clear from day one.'],['Priya S.','Tiruppur','We wanted privacy without a bulky look. The timber slat option was explained well and installed with care.'],['M. Aravind','Pollachi','Our farm fence had leaning posts after heavy rain. The repair plan was practical and the team left the site tidy.']].map(([n,l,t])=>`<article class="card"><div class="card-body"><p>★★★★★</p><p>“${t}”</p><strong>${n}</strong><small>${l} · Sample testimonial</small></div></article>`).join('')}</div></div></section><section class="section"><div class="container"><div class="section-head"><span class="eyebrow">FAQ</span><h2>Good fences start with good answers.</h2></div>${faqs(faq)}</div></section>${cta()}`}
+function productsPage(){root.innerHTML=ui.hero('Fence Materials & Products','Compare materials, security ratings, maintenance and indicative installed rates.','hero-products')+`<section class="section"><div class="container"><div class="filterbar" id="product-filters">${[['all','All'],['timber','Timber'],['vinyl','Vinyl/PVC'],['metal','Metal'],['chain','Chain-Link & Mesh'],['composite','Composite']].map(([v,n])=>`<button class="filter-btn" data-material="${v}">${n}</button>`).join('')}<select id="sort-products" class="form-select ms-auto" aria-label="Sort products"><option value="name">Sort: Name</option><option value="price">Price: Low to High</option><option value="security">Security rating</option></select></div><p id="result-count" aria-live="polite"></p><div class="grid grid-3 bp-products-grid" id="product-grid"></div><p class="hidden" id="no-products">No products match this material. Try another category.</p></div></section><section class="section section-alt"><div class="container"><div class="section-head"><span class="eyebrow">MATERIAL GUIDE</span><h2>Compare before you choose.</h2></div><div class="table-scroll"><table class="table"><thead><tr><th>Material</th><th>Privacy</th><th>Security</th><th>Lifespan</th><th>Maintenance</th><th>Price level</th></tr></thead><tbody>${[['Timber','High','Medium','12-20 years','Medium','₹₹'],['Vinyl/PVC','High','Medium','20+ years','Low','₹₹₹'],['Steel/Metal','Medium','Very high','25+ years','Low-medium','₹₹₹'],['Chain-Link','Low','High','15-25 years','Low','₹'],['Composite','High','High','20+ years','Low','₹₹₹']].map(a=>`<tr>${a.map(x=>`<td>${x}</td>`).join('')}</tr>`).join('')}</tbody></table></div></div></section>${cta()}<div class="modal fade" id="product-modal" tabindex="-1" aria-labelledby="product-modal-title"><div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h2 class="modal-title" id="product-modal-title">Fence Details</h2><button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body" id="product-modal-body"></div></div></div></div>`;let mat=new URLSearchParams(location.search).get('material')||'all';const valid=['all','timber','vinyl','metal','chain','composite'];if(!valid.includes(mat))mat='all';function render(){const list=b.products.filter(p=>mat==='all'||p.material===mat).sort((a,c)=>document.querySelector('#sort-products').value==='price'?a.price-c.price:document.querySelector('#sort-products').value==='security'?c.security-a.security:a.name.localeCompare(c.name));document.querySelector('#product-grid').innerHTML=list.map(p=>card(p)).join('');document.querySelector('#result-count').textContent=`Showing ${list.length} of ${b.products.length} fence options`;document.querySelector('#no-products').classList.toggle('hidden',!!list.length);document.querySelectorAll('[data-material]').forEach(x=>x.classList.toggle('active',x.dataset.material===mat))}document.querySelector('#product-filters').onclick=e=>{let x=e.target.closest('[data-material]');if(!x)return;mat=x.dataset.material;history.replaceState({},'',mat==='all'?'products.html':'products.html?material='+mat);render()};document.querySelector('#sort-products').onchange=render;document.querySelector('#product-grid').onclick=e=>{const x=e.target.closest('[data-quick]');if(!x)return;const p=b.products.find(p=>p.id===x.dataset.quick);document.querySelector('#product-modal-title').textContent=p.name;document.querySelector('#product-modal-body').innerHTML=`<div class="split">${img(p.image,p.name)}<div><p>${p.description}</p><p><strong>Height:</strong> ${p.height}</p><p><strong>Expected lifespan:</strong> ${p.life}</p><p><strong>Maintenance:</strong> ${p.maintenance}</p><p><strong>Security:</strong> ${p.security}/5</p><p><strong>Indicative starting price:</strong> ₹${p.price.toLocaleString('en-IN')} per metre</p><a class="btn btn-primary" href="contact.html?product=${p.id}&service=installation">Request Quote</a></div></div>`;bootstrap.Modal.getOrCreateInstance(document.querySelector('#product-modal')).show()};render()}
+function galleryPage(){root.innerHTML=ui.hero('Built in the Real World','Browse a curated selection of residential boundaries, commercial fences, security installations and repairs.','hero-gallery')+`<section class="section"><div class="container"><div class="filterbar" id="gallery-filters">${['All','Residential','Commercial','Security','Repairs'].map(v=>`<button class="filter-btn ${v==='All'?'active':''}" data-category="${v}">${v}</button>`).join('')}</div><div class="grid grid-3" id="gallery-grid"></div><div class="text-center mt-4"><button class="btn btn-outline" id="load-more">Load More</button></div></div></section>${cta()}<div class="modal fade" id="gallery-lightbox" tabindex="-1" aria-label="Project photo lightbox"><div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h2 class="modal-title" id="gallery-title">Project</h2><button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body text-center"><img id="gallery-large" src="assets/img/gallery-luxury-timber.webp" alt="Fence project" style="max-height:65vh;width:100%;object-fit:contain"><p id="gallery-counter" class="mt-2"></p></div><div class="modal-footer justify-content-between"><button class="btn btn-outline" id="gallery-prev">Previous</button><a class="btn btn-primary" id="gallery-quote" href="contact.html">Get a Similar Fence</a><button class="btn btn-outline" id="gallery-next">Next</button></div></div></div></div>`;let cat='All',visible=6,items=[],pos=0,startX=0;const m=document.querySelector('#gallery-lightbox');function draw(){items=b.gallery.filter(g=>cat==='All'||g.category===cat);document.querySelector('#gallery-grid').innerHTML=items.slice(0,visible).map((g,i)=>`<article class="gallery-card"><button class="w-100 p-0 border-0" data-gallery="${i}" aria-label="View ${g.type} project">${img(g.image,g.type+' in '+g.location)}</button><div class="gallery-caption"><h3>${g.type}</h3><p>${g.location} · ${g.category}</p></div></article>`).join('');document.querySelector('#load-more').hidden=visible>=items.length}function show(){const g=items[pos];document.querySelector('#gallery-large').src=g.image;document.querySelector('#gallery-large').alt=g.type+' in '+g.location;document.querySelector('#gallery-title').textContent=g.type+' · '+g.location;document.querySelector('#gallery-counter').textContent=`${pos+1} / ${items.length}`;document.querySelector('#gallery-quote').href='contact.html?service=installation'}function move(n){pos=(pos+n+items.length)%items.length;show()}document.querySelector('#gallery-filters').onclick=e=>{let x=e.target.closest('[data-category]');if(!x)return;cat=x.dataset.category;visible=6;document.querySelectorAll('[data-category]').forEach(el=>el.classList.toggle('active',el===x));draw()};document.querySelector('#load-more').onclick=()=>{visible+=6;draw()};document.querySelector('#gallery-grid').onclick=e=>{const x=e.target.closest('[data-gallery]');if(!x)return;pos=+x.dataset.gallery;show();bootstrap.Modal.getOrCreateInstance(m).show()};document.querySelector('#gallery-prev').onclick=()=>move(-1);document.querySelector('#gallery-next').onclick=()=>move(1);m.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')move(document.documentElement.dir==='rtl'?1:-1);if(e.key==='ArrowRight')move(document.documentElement.dir==='rtl'?-1:1)});m.addEventListener('touchstart',e=>startX=e.changedTouches[0].screenX,{passive:true});m.addEventListener('touchend',e=>{let dx=e.changedTouches[0].screenX-startX;if(Math.abs(dx)>60)move(dx>0?-1:1)},{passive:true});draw()}
+function field(label,name,type='text',attrs='',full=false){return `<div class="${full?'wide':''}"><label class="form-label" for="${name}">${label}</label><input class="form-control" id="${name}" name="${name}" type="${type}" ${attrs}><div class="field-error" id="err-${name}" aria-live="polite"></div></div>`}function contactPage(){const u=BPAuth.get();const returnTo='contact.html'+(location.search||'');const authHref='login.html?returnTo='+encodeURIComponent(returnTo);const registerHref='register.html?returnTo='+encodeURIComponent(returnTo);const bookingIntro='<p>All fields marked * are required. This demo saves bookings in your browser only.</p>';const chosenService=new URLSearchParams(location.search).get('service')||'';const chosenName=servicesData[chosenService]?.title||({'installation':'New Fence Installation','repair':'Damaged Fence Repair'}[chosenService])||'';root.innerHTML=ui.hero('Book Your Free Measurement','Tell us what you need. We will review the site details and get in touch with a practical next step.','hero-contact')+`<section class="section"><div class="container split booking-layout" style="align-items:start;grid-template-columns:minmax(0,1.35fr) minmax(0,.85fr)"><div class="form-panel booking-main-panel"><span class="eyebrow">SITE MEASUREMENT</span><h2>Let's measure it right.</h2>${bookingIntro}${chosenName?`<div class="booking-selected-service"><i class="bi bi-check-circle"></i><span><strong>Selected service:</strong> ${ui.esc(chosenName)}</span></div>`:``}${!u?`<div class="booking-inline-auth" id="booking-signin-note" role="status"><i class="bi bi-shield-lock" aria-hidden="true"></i><div><strong>Sign in to complete your booking</strong><p>Fill the form as usual. Sign in before submitting; your entered details will be kept for when you return.</p></div><a href="${authHref}" class="btn btn-primary" id="booking-signin-link">Sign In for Booking</a></div>`:''}<form id="booking-form" novalidate><input type="hidden" name="selectedService" value="${ui.esc(chosenService)}"><fieldset><legend class="form-label">Service type *</legend><label class="me-3"><input type="radio" name="service" value="installation" checked> Installation</label><label><input type="radio" name="service" value="repair"> Repair</label></fieldset><div class="form-grid mt-3">${field('Full name *','fullName','text','required autocomplete="name"')}${field('Phone number *','phone','tel','required inputmode="numeric" maxlength="10" autocomplete="tel" data-digits')}${field('Email *','email','email','required autocomplete="email"')}${field('City / PIN *','cityPin','text','required autocomplete="postal-code"')}${field('Site address *','address','text','required autocomplete="street-address"',true)}<div><label class="form-label" for="fenceType">Fence type *</label><select class="form-select" id="fenceType" name="fenceType" required><option value="">Choose a fence type</option>${b.products.map(p=>`<option value="${p.id}">${p.name}</option>`).join('')}</select><div class="field-error" id="err-fenceType"></div></div>${field('Approximate length *','length','number','required min="1" max="100000" step="0.1"')}<div><label class="form-label" for="unit">Unit</label><select class="form-select" id="unit" name="unit"><option>metres</option><option>feet</option></select></div>${field('Preferred date *','preferredDate','date','required')}<div><label class="form-label" for="timeSlot">Preferred time *</label><select class="form-select" name="timeSlot" id="timeSlot" required><option value="">Choose a time</option><option>Morning</option><option>Afternoon</option><option>Evening</option></select><div class="field-error" id="err-timeSlot"></div></div><div class="wide"><label class="form-label" for="notes">Site notes</label><textarea class="form-control" name="notes" id="notes" rows="3" placeholder="Gate access, terrain, repairs or other details"></textarea></div><div class="wide"><label class="form-label" for="sitePhoto">Optional site photo (JPG, PNG, WebP; max 4 MB)</label><input type="file" class="form-control" id="sitePhoto" accept="image/jpeg,image/png,image/webp"><div id="photo-preview" class="mt-2"></div><div class="field-error" id="err-sitePhoto"></div></div><div class="wide"><label><input type="checkbox" name="consent" id="consent" required> I agree to be contacted about this request. *</label><div class="field-error" id="err-consent"></div></div></div><button class="btn btn-primary btn-lg mt-3 bp-centered-booking-submit" id="booking-submit" type="submit">Submit Measurement Request</button></form><div id="booking-success" class="success-panel hidden" role="status"></div></div><aside class="form-panel booking-side-panel"><span class="eyebrow">CONTACT OUR TEAM</span><h2>Need a quick answer?</h2><p><i class="bi bi-telephone"></i> <a href="tel:${b.phone}">${b.displayPhone}</a></p><p><i class="bi bi-whatsapp"></i> <a href="https://wa.me/${b.whatsapp}">WhatsApp our team</a></p><p><i class="bi bi-envelope"></i> <a href="mailto:${b.email}">${b.email}</a></p><h3>Visit us</h3><p>${b.address}</p><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(b.address)}" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Get Directions</a><h3 class="mt-4">Working hours</h3><p>${b.hours}</p><h3>Service areas</h3><p>${b.areas.join(', ')}</p><div class="card-body booking-side-card" style="background:var(--bg)"><h3>Urgent fence repair?</h3><p>For exposed or unsafe boundary damage, call directly for availability.</p><a class="btn btn-primary" href="tel:${b.phone}">Call for Repair</a></div><div class="card-body booking-side-card booking-side-checklist" style="background:var(--bg)"><h3>Prepare for your measurement</h3><ul><li>Keep photos or style references ready</li><li>Note gate position, site slope and access points</li><li>Measure a rough boundary length if possible</li></ul><div class="actions"><a class="btn btn-outline btn-sm" href="gallery.html">View Fence Ideas</a></div></div></aside></div></section><section class="section section-alt"><div class="container"><div class="section-head"><h2>Before we visit</h2></div>${faqs(faq.slice(0,3))}</div></section><section class="section map-section"><div class="container"><div class="section-head"><span class="eyebrow">FIND US</span><h2>Visit our service area.</h2><p>Explore the Coimbatore area and get directions before arranging a measurement.</p></div><div class="map-frame"><iframe title="Google Maps showing Coimbatore, Tamil Nadu" src="https://www.google.com/maps?q=Coimbatore%2C%20Tamil%20Nadu&output=embed" width="100%" height="420" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div><p class="map-note">Map shows the general Coimbatore service area, not a verified business office address.</p></div></section>${cta()}`;const form=document.querySelector('#booking-form');const tomorrow=new Date();tomorrow.setDate(tomorrow.getDate()+1);const y=tomorrow.getFullYear(),mo=String(tomorrow.getMonth()+1).padStart(2,'0'),da=String(tomorrow.getDate()).padStart(2,'0');form.preferredDate.min=`${y}-${mo}-${da}`;const params=new URLSearchParams(location.search);if(params.get('product')&&b.products.some(p=>p.id===params.get('product')))form.fenceType.value=params.get('product');if(['repair','fence-repair','emergency-repair','rust-restoration'].includes(params.get('service')))form.querySelector('[value="repair"]').checked=true;if(u){form.fullName.value=u.name;form.email.value=u.email}const bpDraftKey='bp-booking-draft';function bpSaveDraft(){const fields=['fullName','phone','email','cityPin','address','fenceType','length','unit','preferredDate','timeSlot','notes'];const data={};for(const fieldName of fields){const el=form.elements.namedItem(fieldName);if(el)data[fieldName]=el.value}data.service=form.querySelector('[name="service"]:checked')?.value||'installation';data.consent=!!form.elements.namedItem('consent')?.checked;try{sessionStorage.setItem(bpDraftKey,JSON.stringify(data))}catch{}}try{const draft=JSON.parse(sessionStorage.getItem(bpDraftKey)||'null');if(draft&&typeof draft==='object'){for(const [k,v] of Object.entries(draft)){const el=form.elements.namedItem(k);if(el&&k!=='service'&&k!=='consent'&&typeof v==='string')el.value=v}if(draft.service){const r=form.querySelector(`[name="service"][value="${draft.service==='repair'?'repair':'installation'}"]`);if(r)r.checked=true}if(typeof draft.consent==='boolean')form.elements.namedItem('consent').checked=draft.consent;sessionStorage.removeItem(bpDraftKey)}}catch{}document.getElementById('booking-signin-link')?.addEventListener('click',bpSaveDraft);form.onsubmit=e=>{e.preventDefault();if(!BPAuth.get()){bpSaveDraft();const note=document.getElementById('booking-signin-note');if(note){note.classList.add('booking-auth-attention');note.scrollIntoView({behavior:'smooth',block:'center'});document.getElementById('booking-signin-link')?.focus()}ui.toast('Please sign in to complete your measurement request');return}let good=true;const err=(k,msg)=>{const el=document.getElementById('err-'+k);if(el)el.textContent=msg;const f=form.elements.namedItem(k);if(f?.setAttribute)f.setAttribute('aria-invalid',msg?'true':'false');if(msg)good=false};['fullName','phone','email','cityPin','address','fenceType','length','preferredDate','timeSlot','consent'].forEach(k=>err(k,''));const v=k=>String(form.elements.namedItem(k)?.value ?? '').trim();if(v('fullName').length<2)err('fullName','Enter your full name.');if(!/^\d{10}$/.test(v('phone')))err('phone','Enter exactly 10 digits.');if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v('email')))err('email','Enter a valid email.');if(v('cityPin').length<3)err('cityPin','Enter your city or PIN.');if(v('address').length<8)err('address','Enter a complete site address.');if(!v('fenceType'))err('fenceType','Choose a fence type.');if(!(Number(v('length'))>0))err('length','Enter a positive length.');if(!v('preferredDate')||v('preferredDate')<form.preferredDate.min)err('preferredDate','Choose tomorrow or a later date.');if(!v('timeSlot'))err('timeSlot','Choose a time slot.');if(!form.consent.checked)err('consent','Consent is required.');const photo=document.querySelector('#sitePhoto').files[0];if(photo&&(!['image/jpeg','image/png','image/webp'].includes(photo.type)||photo.size>4*1024*1024))err('sitePhoto','Choose a JPG, PNG or WebP under 4 MB.');if(!good){form.querySelector('[aria-invalid="true"]')?.focus();return}const btn=document.querySelector('#booking-submit');btn.disabled=true;btn.textContent='Submitting...';setTimeout(()=>{const ref='BP-'+new Date().getFullYear()+'-'+Math.floor(1000+Math.random()*9000);const record={ref,userEmail:u?.email||null,...Object.fromEntries(new FormData(form).entries())};delete record.consent;try{const old=JSON.parse(localStorage.getItem('bp-bookings')||'[]');old.push(record);localStorage.setItem('bp-bookings',JSON.stringify(old))}catch{}const prettyFence=(b.products.find(p=>p.id===record.fenceType)?.name)||record.fenceType;const success=document.querySelector('#booking-success');success.innerHTML=`<div class="booking-success-shell"><div class="booking-success-head"><div class="booking-success-badge"><i class="bi bi-check2-circle"></i></div><div><h3>Request received: ${ref}</h3><p>Thanks, ${ui.esc(record.fullName)}. Your booking is now saved to this account in this browser.</p></div></div><div class="booking-success-grid"><div class="booking-success-card"><h4>Request summary</h4><ul><li><strong>Service:</strong> ${ui.esc(record.service)}</li><li><strong>Fence type:</strong> ${ui.esc(prettyFence)}</li><li><strong>Date:</strong> ${ui.esc(record.preferredDate)}</li><li><strong>Time:</strong> ${ui.esc(record.timeSlot)}</li><li><strong>Length:</strong> ${ui.esc(record.length)} ${ui.esc(record.unit)}</li></ul></div><div class="booking-success-card"><h4>What happens next?</h4><ul><li>Review your request details in your profile</li><li>Keep site access and boundary notes ready</li><li>Use the profile page to start another request any time</li></ul></div></div><div class="booking-success-actions"><a class="btn btn-primary" href="profile.html">View My Requests</a><button class="btn btn-outline" type="button" id="booking-new-request">Start Another Request</button></div></div>`;document.querySelector('.booking-layout')?.classList.add('booking-success-state');document.querySelector('.booking-side-panel')?.classList.add('hidden');success.classList.remove('hidden');form.classList.add('hidden');document.getElementById('booking-new-request')?.addEventListener('click',()=>location.reload());ui.toast('Measurement request saved');btn.disabled=false;btn.textContent='Submit Measurement Request'},450)};document.querySelector('#sitePhoto').onchange=e=>{const f=e.target.files[0],out=document.querySelector('#photo-preview');out.innerHTML='';if(f&&['image/jpeg','image/png','image/webp'].includes(f.type)&&f.size<=4*1024*1024){const url=URL.createObjectURL(f);const im=document.createElement('img');im.src=url;im.alt='Selected site photo preview';im.onload=()=>URL.revokeObjectURL(url);out.append(im)}}}
+function authPage(mode){const sign=mode==='register';if(BPAuth.get()){location.replace(bpSafeReturnTo()||'index.html');return}root.innerHTML=`<div class="auth-shell auth-shell-redesign"><div class="auth-photo auth-photo-premium" style="--auth-bg:url('assets/img/${sign?'auth-signup-premium.webp':'auth-signin-security.webp'}')"><div class="auth-photo-content"><span class="hero-kicker">SECURE YOUR PROPERTY</span><h2>Every boundary.<br><em>One trusted partner.</em></h2><p>Protect what matters with expert fencing solutions.</p><div class="auth-trust"><div><i class="bi bi-shield-check"></i><span><strong>Dependable protection</strong><small>Security designed around your property</small></span></div><div><i class="bi bi-rulers"></i><span><strong>Transparent measurements</strong><small>Clear scope and practical estimates</small></span></div><div><i class="bi bi-tools"></i><span><strong>Professional craftsmanship</strong><small>Quality materials and careful installation</small></span></div></div></div></div><div class="auth-form-area"><div class="auth-form"><span class="auth-mini-label">BOUNDARYPRO ACCOUNT</span><span class="eyebrow text-center">${sign?'JOIN BOUNDARYPRO':'WELCOME BACK'}</span><h1>${sign?'Create your account':'Welcome back'}</h1><p>${sign?'Create an account to save measurement requests and track your fencing plans.':'Sign in to manage your measurements and fencing enquiries.'}</p><form id="auth-form" class="form-panel" novalidate>${sign?field('Full name *','fullName','text','required autocomplete="name"'):''}${field('Email *','email','email','required autocomplete="email"')}<div><label class="form-label" for="password">Password *</label><div class="input-group bp-password-row"><input class="form-control" id="password" name="password" type="password" required autocomplete="${sign?'new-password':'current-password'}"><button class="btn btn-outline" type="button" data-password="password" aria-label="Show password" aria-pressed="false"><i class="bi bi-eye"></i></button></div><div class="field-error" id="err-password"></div>${sign?'<small>Use at least 8 characters.</small>':''}</div>${sign?`<div><label class="form-label" for="confirm">Confirm password *</label><div class="input-group bp-password-row"><input class="form-control" type="password" id="confirm" name="confirm" required autocomplete="new-password"><button class="btn btn-outline" type="button" data-password="confirm" aria-label="Show password" aria-pressed="false"><i class="bi bi-eye"></i></button></div><div class="field-error" id="err-confirm"></div></div><label><input type="checkbox" id="terms" required> I agree to the <a href="terms-of-service.html" class="text-decoration-underline">Terms of Service</a>.</label><div class="field-error" id="err-terms"></div>`:''}<button class="btn btn-primary w-100 mt-3" type="submit">${sign?'Create Account':'Sign In'}</button></form>${sign?'':`<button class="btn btn-ghost align-self-center" data-bs-toggle="modal" data-bs-target="#forgot-modal">Forgot password?</button>`}<div class="text-center my-3">or continue with</div><div class="social-buttons">${['google','facebook','apple'].map(n=>`<button class="btn btn-outline" data-social aria-label="Continue with ${n}"><i class="bi bi-${n}"></i><span>${n.charAt(0).toUpperCase()+n.slice(1)}</span></button>`).join('')}</div><p class="text-center mt-4">${sign?`Already have an account? <a href="login.html${location.search}">Sign In</a>`:`New here? <a href="register.html${location.search}">Create an account</a>`}</p></div></div></div>${sign?'':`<div class="modal fade" id="forgot-modal" tabindex="-1"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h2 class="modal-title">Reset password</h2><button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><form id="reset-form"><div class="modal-body"><label for="reset-email" class="form-label">Email</label><input id="reset-email" type="email" required class="form-control"></div><div class="modal-footer"><button class="btn btn-primary">Send Reset Link</button></div></form></div></div></div>`}`;document.querySelectorAll('[data-password]').forEach(btn=>btn.onclick=()=>{const f=document.getElementById(btn.dataset.password);f.type=f.type==='password'?'text':'password';const showing=f.type==='text';btn.setAttribute('aria-pressed',String(showing));btn.setAttribute('aria-label',showing?'Hide password':'Show password');btn.querySelector('i').className=showing?'bi bi-eye-slash':'bi bi-eye'});document.querySelectorAll('[data-social]').forEach(btn=>btn.onclick=()=>{const provider=(btn.textContent||'Google').trim().toLowerCase();const name=provider==='apple'?'Apple Demo User':provider==='facebook'?'Facebook Demo User':'Google Demo User';BPAuth.save({name,email:`${provider}.demo@boundarypro.example`,demo:true,provider});try{sessionStorage.setItem('bp-login-toast','Logged in successfully')}catch{}location.replace(bpSafeReturnTo()||'index.html')});document.querySelector('#auth-form').onsubmit=e=>{e.preventDefault();const f=e.currentTarget,em=f.email.value.trim().toLowerCase(),pw=f.password.value;let valid=true;function err(k,s){document.getElementById('err-'+k).textContent=s;valid=valid&&!s}err('email',/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)?'':'Enter a valid email.');err('password',pw.length>=8?'':'Password must be at least 8 characters.');if(sign){err('fullName',f.fullName.value.trim().length>=2?'':'Enter your full name.');err('confirm',pw===f.confirm.value?'':'Passwords do not match.');err('terms',f.terms.checked?'':'Please accept the terms.')}if(!valid)return;BPAuth.save({name:sign?f.fullName.value.trim():em.split('@')[0],email:em});try{sessionStorage.setItem('bp-login-toast',sign?'Account created successfully':'Successfully signed in')}catch{}location.replace(bpSafeReturnTo()||'index.html')};document.querySelector('#reset-form')?.addEventListener('submit',e=>{e.preventDefault();if(e.target.reportValidity()){bootstrap.Modal.getInstance(document.querySelector('#forgot-modal')).hide();ui.toast('If this email exists, a reset link has been sent')}})}
+function bpSafeReturnTo(){let raw=new URLSearchParams(location.search).get('returnTo');if(!raw){try{raw=sessionStorage.getItem('bp-return-to')}catch{}}try{sessionStorage.removeItem('bp-return-to')}catch{}if(!raw||! /^(?:contact|profile)\.html(?:\?[a-zA-Z0-9%_=&-]*)?$/.test(raw))return null;return raw}
+function profilePage(){if(!BPAuth.get()){location.replace('login.html?returnTo='+encodeURIComponent('profile.html'));return}function render(){const u=BPAuth.get();if(!u){location.replace('login.html?returnTo='+encodeURIComponent('profile.html'));return}let bookings=[];try{bookings=JSON.parse(localStorage.getItem('bp-bookings')||'[]').filter(x=>x.userEmail===u.email||x.email?.toLowerCase()===u.email)}catch{}const initials=ui.esc((u.name||'U').trim().split(/\s+/).slice(0,2).map(v=>v[0]?.toUpperCase()||'').join('')||'U');const latest=bookings[0];root.innerHTML=ui.hero('Your Profile','Your details and locally saved measurement requests.','hero-profile')+`<section class="section profile-section"><div class="container profile-shell"><aside class="card profile-card"><div class="card-body profile-card-body"><div class="profile-avatar">${initials}</div><h2>${ui.esc(u.name)}</h2><p class="profile-email">${ui.esc(u.email)}</p><div class="profile-mini-stats"><div><strong>${bookings.length}</strong><span>Requests</span></div><div><strong>${latest?ui.esc(latest.preferredDate):'—'}</strong><span>Latest Visit</span></div><div><strong>Active</strong><span>Account Status</span></div></div><div class="profile-card-actions"><a class="btn btn-primary" href="contact.html">Book Another Measurement</a><button class="btn btn-outline" id="profile-signout">Sign out</button></div></div></aside><div class="card profile-requests-card"><div class="card-body"><div class="profile-requests-head"><div><span class="eyebrow">YOUR FENCING PROJECT</span><h2>Measurement requests</h2><p>Review your locally stored enquiry history and continue planning your next boundary upgrade.</p></div></div><div class="profile-request-stats"><div class="profile-stat-box"><span>Total requests</span><strong>${bookings.length}</strong></div><div class="profile-stat-box"><span>Preferred service</span><strong>${bookings[0]?ui.esc(bookings[0].service):'—'}</strong></div><div class="profile-stat-box"><span>Last fence type</span><strong>${bookings[0]?ui.esc((b.products.find(p=>p.id===bookings[0].fenceType)?.name)||bookings[0].fenceType):'—'}</strong></div></div>${bookings.length?`<div class="profile-request-list">${bookings.map(x=>`<article class="profile-request-item"><div><strong>${ui.esc(x.ref)}</strong><p>${ui.esc((b.products.find(p=>p.id===x.fenceType)?.name)||x.fenceType)} · ${ui.esc(x.preferredDate)} · ${ui.esc(x.timeSlot||'Time slot not set')}</p><small>${ui.esc(x.address)}</small></div><span class="profile-request-chip">${ui.esc(x.service)}</span></article>`).join('')}</div>`:`<div class="profile-empty"><i class="bi bi-journal-text"></i><h3>No requests saved yet</h3><p>Once you submit a measurement request, it will appear here for quick reference.</p></div>`}<div class="profile-cta-row"><a class="btn btn-primary btn-lg" href="contact.html">Start a New Request</a></div></div></div></section>`;document.querySelector('#profile-signout').onclick=BPAuth.logout}render();window.addEventListener('pageshow',()=>{if(!BPAuth.get())location.replace('login.html?returnTo='+encodeURIComponent('profile.html'))});window.addEventListener('storage',()=>{if(!BPAuth.get())location.replace('login.html?returnTo='+encodeURIComponent('profile.html'))})}
+function pricingPage(){const plans=[{name:'Basic',tag:'ESSENTIAL BOUNDARY',price:'1,250',desc:'Practical fencing for straightforward residential and agricultural boundaries.',features:['Initial site measurement','Standard material options','Basic post and panel installation','Written installation estimate','Installation guidance'],icon:'bi-house-check'},{name:'Standard',tag:'MOST POPULAR',price:'2,450',desc:'The balanced choice for privacy, security and lasting everyday performance.',features:['Everything in Basic','Premium material choices','Reinforced post foundations','Gate and hardware planning','Enhanced finish and aftercare','Priority measurement scheduling'],icon:'bi-shield-check',popular:true},{name:'Premium',tag:'SIGNATURE PROTECTION',price:'4,250',desc:'A tailored solution for architectural homes and demanding commercial sites.',features:['Everything in Standard','Bespoke height and layout','Advanced security options','Premium gate and lock planning','Site-specific design consultation','Extended aftercare options'],icon:'bi-buildings'}];root.innerHTML=ui.hero('Clear plans. Stronger boundaries.','Explore indicative fencing packages and choose the level of privacy, security and finish that fits your property.','hero-pricing','PRICING & PACKAGES')+`<section class="section"><div class="container"><div class="section-head"><span class="eyebrow">FLEXIBLE FENCING PACKAGES</span><h2>Find the right fit for your boundary.</h2><p>Every property is different. These starting rates help you compare options before your free site measurement.</p></div><div class="pricing-grid">${plans.map(x=>`<article class="pricing-card ${x.popular?'popular':''}">${x.popular?'<div class="popular-ribbon"><i class="bi bi-star-fill"></i> Most Popular</div>':'<div class="popular-spacer" aria-hidden="true"></div>'}<div class="pricing-inner"><span class="eyebrow">${x.tag}</span><div class="plan-icon"><i class="bi ${x.icon}"></i></div><h3>${x.name}</h3><p class="plan-description">${x.desc}</p><div class="plan-price"><small>From ₹</small>${x.price}<span>/ metre*</span></div><div class="plan-features">${x.features.map(f=>`<div><i class="bi bi-check-circle-fill"></i><span>${f}</span></div>`).join('')}</div><a class="btn ${x.popular?'btn-primary':'btn-outline'}" href="contact.html?service=installation&plan=${x.name.toLowerCase()}">Choose ${x.name}</a></div></article>`).join('')}</div><p class="pricing-disclaimer">*Indicative demonstration prices, not binding quotes. Final pricing depends on material, height, terrain, foundation, access, gates and site conditions. Contact us for a written estimate.</p></div></section><section class="section section-alt"><div class="container split"><div><span class="eyebrow">NO SURPRISES</span><h2>Measured for your property, not guessed online.</h2><p>We review your boundary length, soil conditions, gate requirements and preferred materials before preparing a tailored estimate.</p><div class="actions"><a class="btn btn-primary" href="contact.html">Request a Detailed Estimate</a></div></div><img src="assets/img/pricing-consultation.webp" alt="Site measurement consultation and transparent fencing estimate" width="700" height="470" loading="lazy"></div></section>${cta()}`}
+function legalPage(privacy){const title=privacy?'Privacy Policy':'Terms of Service';root.innerHTML=ui.hero(title,privacy?'How this demonstration website handles information.':'Important information about enquiries and indicative fencing services.','hero-legal')+`<section class="section"><div class="container legal-copy"><h2>${title}</h2><p>Last updated: October 2026. This is a demonstration website for BoundaryPro Fencing. Contact details and business information are placeholders and must be replaced before public launch.</p>${privacy?`<h2>Information you enter</h2><p>Measurement requests may include your name, phone number, email, property address, fence preferences and proposed visit date. In this demonstration, the information is stored only in your browser's localStorage and is not sent to a server.</p><h2>Accounts and session</h2><p>Demo account name and email are stored in localStorage. This is not a secure authentication system and should not be used for real customer accounts.</p><h2>Images and cookies</h2><p>Illustrative fence images are local SVG assets. Bootstrap and Google Fonts may be requested from their respective providers when you are online. We do not set advertising cookies in this demonstration.</p><h2>Your choices</h2><p>Clear this site's browser storage to remove locally saved account details and bookings. Before launch, implement secure server-side data handling, a retention policy and appropriate consent procedures.</p>`:`<h2>Quotes and measurements</h2><p>Displayed prices are indicative starting amounts per metre and are not binding offers. Site conditions, access, terrain, foundation requirements, materials and gates affect the final price.</p><h2>Booking requests</h2><p>Submitting the demo measurement form saves a request locally; it does not create a confirmed appointment or contact an actual contractor. Replace the demo form with a verified booking endpoint before launch.</p><h2>Installation and repairs</h2><p>Actual project scope, lead time, warranties, permits and payment schedules must be documented in a signed quotation or contract. Boundary ownership and local permissions are the customer's responsibility unless expressly agreed otherwise.</p><h2>Liability</h2><p>Information on this demonstration website is for general planning and should not substitute for an on-site inspection or a formal contract.</p>`}<h2>Questions?</h2><p>Contact <a href="mailto:${b.email}">${b.email}</a> for further information.</p></div></section>${cta()}`}
+function notFound(){root.innerHTML=ui.hero('404 / Page Not Found','This boundary leads nowhere. Let us get you back on track.','hero-legal')+`<section class="section text-center"><div class="container"><h2>Looks like a missing gate.</h2><p>Try the homepage or reach out to discuss your project.</p><div class="actions justify-content-center"><a href="index.html" class="btn btn-primary">Back Home</a><a href="contact.html" class="btn btn-outline">Contact Us</a></div></div></section>`}
+
+const servicesData = {
+  'new-installation': {
+    title: 'New Fence Installation',
+    hero: 'hero-services',
+    tag: 'PROFESSIONAL INSTALLATION',
+    sub: 'Full-service site survey, foundational post installation, panel mounting and hardware alignment.',
+    intro: 'Every new boundary fence begins with accurate ground measurement and site-specific foundation planning. Whether you require private cedar panels for a family residence, robust security palisades for industrial yards, or long-run agricultural fencing, our experienced team ensures your fence is built straight, secure and resilient against the elements.',
+    contentImg: 'assets/img/service-new-installation.webp',
+    secondaryImg: 'assets/img/home-install.webp',
+    specs: [['Materials Available','Timber, Metal, Vinyl/PVC, Welded Mesh, Composite'],['Foundation Method','Reinforced concrete footings at 600mm–900mm depth'],['Typical Timeline','2 to 5 working days depending on perimeter length'],['Warranty','Up to 5-year workmanship & structural warranty']],
+    steps: [['01','Site Survey & Ground Check','Laser boundary measurement, slope check and underground utility clearance.'],['02','Post Hole Boring & Concrete Footings','Precision digging and setting heavy-duty posts plumb and true.'],['03','Panel Mounting & Gate Integration','Tight panel assembly, concealed fixings, and reinforced access gates.']]
+  },
+  'fence-repair': {
+    title: 'Damaged Fence Repair',
+    hero: 'hero-services',
+    tag: 'RESTORATION & REPAIR',
+    sub: 'Restore post stability, replace broken slats, fix gate drag, and eliminate boundary vulnerabilities.',
+    intro: 'A damaged fence compromises privacy and perimeter security. We diagnose structural post lean, rotten base boards, storm-shifted rails, and broken latches. Whenever possible, our philosophy is to repair and reinforce sound foundations before recommending complete replacement.',
+    contentImg: 'assets/img/service-fence-repair.webp',
+    secondaryImg: 'assets/img/home-repair.webp',
+    specs: [['Services Handled','Leaning posts, cracked timber, misaligned gates, loose panels'],['Hardware Replacement','Heavy-duty galvanised brackets, steel post spurs, hinges'],['Turnaround','Same-day or next-day assessment for urgent repairs'],['Assessment','Free written breakdown of repair vs replacement cost']],
+    steps: [['01','Damage Assessment','Inspect structural integrity, root heave, decay and post stability.'],['02','Post Bracing & Replacement','Reinforce timber with steel sister spurs or concrete new posts.'],['03','Panel Realignment & Hardware Tune-up','Rehang gates, adjust latches, and secure loose fence boards.']]
+  },
+  'security-fencing': {
+    title: 'Commercial Security Fencing',
+    hero: 'hero-commercial',
+    tag: 'COMMERCIAL & INDUSTRIAL',
+    sub: 'Anti-climb welded mesh, steel palisades, reinforced perimeters and controlled vehicle access.',
+    intro: 'Commercial facilities, logistics yards, warehouses, and utilities demand boundary fencing that actively deters intrusion. Our commercial security systems feature rigid welded mesh panels, razor wire or anti-climb serrated toppings, tamper-proof security fixings, and automated gate integration.',
+    contentImg: 'assets/img/service-security-fencing.webp',
+    secondaryImg: 'assets/img/commercial-perimeter.webp',
+    specs: [['Security Level','Rating 5/5 Anti-climb rigid perimeter'],['Mesh Profiles','358 Prison Mesh, Welded V-Beam, Palisade W-Section'],['Height Range','1.8m to 3.0m standard (custom heights available)'],['Standards','Commercial grade galvanised steel with polyester powder coating']],
+    steps: [['01','Perimeter Risk Assessment','Identify vulnerable sight lines, delivery turning zones and gates.'],['02','Engineered Post Installation','Deep concrete footings engineered for high wind loads and impact.'],['03','Security Fitting & Access Control','Tamper-resistant shear nuts, anti-lift brackets and gate automation.']]
+  },
+  'residential-privacy': {
+    title: 'Residential Privacy Fencing',
+    hero: 'hero-residential',
+    tag: 'RESIDENTIAL BOUNDARIES',
+    sub: 'Secluded, elegant, and durable boundary fencing for family gardens and modern architecture.',
+    intro: 'Transform your outdoor living area into a private, peaceful retreat. We design and build horizontal cedar slat screens, vertical tongue-and-groove timber panels, and low-maintenance composite privacy walls tailored to the architecture of your home.',
+    contentImg: 'assets/img/service-residential-privacy.webp',
+    secondaryImg: 'assets/img/style-timber-privacy.webp',
+    specs: [['Privacy Level','100% Visual screening with zero gaps or shadowline slats'],['Materials','Western Red Cedar, Treated Pine, Wood-Plastic Composite'],['Maintenance','Low to medium upkeep depending on stain/sealant options'],['Heights Available','1.5m, 1.8m, 2.1m, and 2.4m planning compliant']],
+    steps: [['01','Privacy & Sight Line Review','Assess neighbour sight angles, prevailing winds and garden sunlight.'],['02','Frame & Foundation Erection','Durable posts set in rapid-cure concrete with moisture barrier.'],['03','Board Installation & Detailing','Premium tongue-and-groove or slat cladding with stainless screws.']]
+  },
+  'farm-boundary': {
+    title: 'Farm & Agricultural Fencing',
+    hero: 'hero-commercial',
+    tag: 'RURAL & AGRICULTURAL',
+    sub: 'Heavy-duty chain-link, post and rail, and field boundaries for expansive plots and livestock.',
+    intro: 'Managing rural perimeters, orchards, and livestock enclosures requires cost-effective fencing that stands up to weather and animal pressure over miles of boundary. We install high-tensile woven wire, heavy-duty galvanised chain-link, and pressure-treated post and rail systems.',
+    contentImg: 'assets/img/service-farm-boundary.webp',
+    secondaryImg: 'assets/img/commercial-agricultural.webp',
+    specs: [['Boundary Types','Galvanised Chain-Link, Field Wire, Post & Rail, Barbed Topping'],['Post Spacing','3.0m to 4.5m tensioned runs with intermediate line posts'],['Terrain Suitability','Adaptable to rolling hills, creeks, rocky terrain and slopes'],['Durability','15 to 30 years with heavy-gauge hot-dip galvanised wire']],
+    steps: [['01','Boundary Line Clearing','Verify property beacons, clear line of sight and mark strainer posts.'],['02','Strainer & Post Driving','Hydraulic post ramming and concrete anchored strainers.'],['03','Wire Tensioning & Clamping','High-tensile wire pulling with mechanical tension gauges.']]
+  },
+  'gate-access': {
+    title: 'Gate Installation & Realignment',
+    hero: 'hero-services',
+    tag: 'ENTRY & AUTOMATION',
+    sub: 'Matching pedestrian side gates, wide driveway sliding gates, and heavy-duty gate hardware.',
+    intro: 'A sagging gate or faulty latch compromises an otherwise perfect fence. We manufacture and install custom driveway gates and pedestrian side gates matching your fence profile, fitted with stainless steel hinges, deadbolts, keypad locks, and optional automated openers.',
+    contentImg: 'assets/img/service-gate-access.webp',
+    secondaryImg: 'assets/img/service-feature-gate.webp',
+    specs: [['Gate Styles','Single swing, double swing, cantilever sliding, bi-folding'],['Automation Ready','Compatible with leading electric actuators and access keypads'],['Hardware Specs','Ball-bearing stainless hinges, magnetic latches, drop bolts'],['Post Reinforcement','Heavy-gauge steel internal gate posts prevent hinge sag']],
+    steps: [['01','Opening & Clearance Measurement','Check driveway incline, swing radius and gate post anchoring.'],['02','Fabrication & Mounting','Welded internal steel frames with timber or slat infill.'],['03','Hardware Tuning & Latch Test','Precision alignment so gates glide smoothly and latch on first try.']]
+  },
+  'rust-restoration': {
+    title: 'Rust Treatment & Metal Restoration',
+    hero: 'hero-commercial',
+    tag: 'METAL CARE & RESTORATION',
+    sub: 'Surface descaling, zinc-rich rust inhibitors, epoxy primers, and weather-resistant protective coatings.',
+    intro: 'Metal fencing and ornamental wrought iron gates exposed to rain and sun inevitably develop oxidisation. Our restoration service arrests corrosion before structural steel weakens, grinding away scale, applying zinc primers, and restoring a factory-fresh finish.',
+    contentImg: 'assets/img/service-rust-restoration.webp',
+    secondaryImg: 'assets/img/gallery-restored-metal.webp',
+    specs: [['Surface Preparation','Wire brushing, chemical rust converters and high-pressure washing'],['Protective Coatings','Zinc phosphate primer plus two-coat polyurethane top finish'],['Colour Options','Classic architectural satin black, dark forest green, anthracite'],['Protection Life','5 to 8 years additional corrosion resistance']],
+    steps: [['01','Corrosion Inspection','Identify pitting, flaking paint, weakened weld joints and rust.'],['02','Chemical Neutralisation','Convert iron oxide into stable protective barrier coating.'],['03','Two-Coat Protective Spraying','High-build architectural enamel application for enduring lustre.']]
+  },
+  'emergency-repair': {
+    title: 'Emergency Storm-Damage Repair',
+    hero: 'hero-services',
+    tag: '24/7 RAPID RESPONSE',
+    sub: 'Immediate perimeter securing, temporary mesh hoarding, fallen tree removal, and fast structural re-erection.',
+    intro: 'When storms, high winds, or vehicle impacts breach your boundary fence, immediate action is essential to keep children, pets, inventory, and property secure. BoundaryPro provides rapid dispatch to clear debris, erect temporary security barriers, and restore your boundary.',
+    contentImg: 'assets/img/service-emergency-repair.webp',
+    secondaryImg: 'assets/img/home-emergency.webp',
+    specs: [['Dispatch Speed','Rapid response priority booking for exposed boundaries'],['Immediate Securing','Heavy-duty temporary mesh panels and counterweight blocks'],['Insurance Support','Itemised written damage reports with photographs for claims'],['Full Reconstruction','Permanent post and panel reinstallation following site safe-off']],
+    steps: [['01','Emergency Site Safe-Off','Secure fallen panels and eliminate hazard to pedestrians.'],['02','Temporary Barrier Hoarding','Erect anti-tip weighted mesh panels across opening.'],['03','Permanent Rebuilding','Excavate broken post bases and install new storm-proof fence.']]
+  },
+  'boundary-inspection': {
+    title: 'Fence Inspection & Boundary Assessment',
+    hero: 'hero-about',
+    tag: 'EXPERT SURVEY & ADVICE',
+    sub: 'Comprehensive multi-point boundary audit covering structural stability, legal alignment, and wear.',
+    intro: 'Before buying a property, settling neighbour disputes, or investing in extensive fence renovations, a professional boundary assessment gives you total clarity. Our licensed fencing specialists inspect post depth, soil erosion, timber rot, boundary line compliance, and structural integrity.',
+    contentImg: 'assets/img/service-boundary-inspection.webp',
+    secondaryImg: 'assets/img/pricing-consultation.webp',
+    specs: [['Checkpoints','24-Point fence line stability, foundation, fixing and gate audit'],['Equipment Used','Digital laser distance meter, electronic moisture probe, spirit levels'],['Report Delivered','Detailed written survey with photography and quote options'],['Turnaround','Survey report delivered within 24 hours of on-site inspection']],
+    steps: [['01','Boundary Traversal & Measurement','Verify total boundary length, corners, slopes, and property beacons.'],['02','Diagnostic Post & Hardware Check','Check underground footing decay, termite signs and metal fatigue.'],['03','Written Recommendation Report','Straightforward action plan with repair or upgrade estimates.']]
+  }
+};
+
+const blogData = {
+  'timber-vs-composite': {
+    title: 'Timber vs Composite Fencing: Which Is Right for Your Property?',
+    subtitle: 'Compare natural character, privacy, long-term maintenance and weather resilience.',
+    hero: 'hero-blog',
+    featuredImg: 'assets/img/blog-timber-vs-composite.webp',
+    secondaryImg: 'assets/img/product-composite.webp',
+    author: 'David Vance, Lead Timber Specialist',
+    date: 'October 12, 2026',
+    readTime: '5 min read',
+    category: 'Materials & Selection',
+    intro: 'When selecting a boundary fence for a residential property, the debate between natural timber and modern composite boards is one of the most common questions homeowners ask. Both offer distinct aesthetic and practical advantages.',
+    sections: [
+      { heading: 'The Natural Warmth and Versatility of Timber', body: 'Cedar and pressure-treated pine have been fencing staples for generations for good reason. Natural wood possesses authentic grain variations, takes custom stains beautifully, and integrates effortlessly into garden landscapes. Timber fences can be custom cut on site to accommodate irregular ground contours and stepped retaining walls.' },
+      { heading: 'Why Modern Composite is Surging in Popularity', body: 'Wood-plastic composite (WPC) blends recycled timber fibres with high-density polymers to create boards that resist moisture, wood-boring insects, and UV degradation. Unlike raw timber, composite boards require zero oiling, staining, or sanding—simply an occasional wash with soapy water.' },
+      { heading: 'Lifetime Cost Analysis', body: 'While composite fencing carries a higher upfront material rate, the absence of annual sealant, staining, and post replacement often makes it more cost-effective over a 15 to 20-year ownership window.' }
+    ],
+    tips: ['Choose cedar if you value organic grain and intend to maintain periodic oil finishes.','Choose composite if you want zero-paint upkeep and live in high-humidity or storm-prone microclimates.','Ensure post foundations are set in gravel-drained concrete regardless of material.']
+  },
+  'security-mesh': {
+    title: 'Choosing Commercial Security Mesh: Aperture, Posts & Anti-Climb Profiles',
+    subtitle: 'Understanding wire gauge, panel rigidity, post foundations and gate hardware for industrial facilities.',
+    hero: 'hero-commercial',
+    featuredImg: 'assets/img/blog-security-mesh.webp',
+    secondaryImg: 'assets/img/commercial-perimeter.webp',
+    author: 'Vikram Mehta, Commercial Security Consultant',
+    date: 'October 8, 2026',
+    readTime: '6 min read',
+    category: 'Commercial Security',
+    intro: 'For warehouses, manufacturing depots, and commercial yards, perimeter fencing is the first active line of defence. Choosing the right security mesh profile requires balancing visual transparency for CCTV monitoring with impenetrable physical delay.',
+    sections: [
+      { heading: 'V-Beam Rigid Mesh vs High-Density 358 Anti-Climb', body: 'Standard welded V-beam mesh features pressed horizontal contours that provide lateral rigidity, making it suitable for distribution centres and school perimeters. For high-security applications, 358 anti-climb mesh (76.2mm x 12.7mm aperture) prevents finger and toe grips, defeating hand climbing and standard bolt cutters.' },
+      { heading: 'Post Engineering and Foundation Depth', body: 'A security fence is only as formidable as the posts anchoring it. Heavy box-section steel posts (60x60mm or 80x80mm) must be anchored in deep concrete footings calculated against high wind loads and potential vehicle impact.' },
+      { heading: 'Concealed Fasteners and Shear Nuts', body: 'Standard bolts can be unbolted from the outside. Commercial specifications should always specify one-way breakaway shear nuts or internal clamp bars that leave no tool purchase on the exterior face.' }
+    ],
+    tips: ['Pair rigid mesh with automated cantilever sliding gates for unobstructed lorry access.','Incorporate CCTV camera mounting poles directly into the fence structural line during foundation pouring.','Always specify hot-dip galvanising plus architectural powder coating for long corrosion resistance.']
+  },
+  'storm-damage': {
+    title: 'Post-Storm Boundary Audit: Inspecting Leaning Posts and Hidden Damage',
+    subtitle: 'A practical guide to checking fence stability, saturated soil heave, and gate alignment after severe weather.',
+    hero: 'hero-services',
+    featuredImg: 'assets/img/blog-storm-damage.webp',
+    secondaryImg: 'assets/img/home-repair.webp',
+    author: 'Marcus Cole, Head of Emergency Repairs',
+    date: 'October 2, 2026',
+    readTime: '4 min read',
+    category: 'Maintenance & Repair',
+    intro: 'Heavy downpours, strong gale gusts, and saturated soil put extreme stress on outdoor fence lines. After severe weather passes, walking your boundary with a systematic checklist can identify structural instability before a total fence collapse occurs.',
+    sections: [
+      { heading: 'Checking for Soil Heave and Concrete Shifting', body: 'Examine the ground around the base of each post. If soil has washed away or cracked open, or if the concrete footing has tilted in the mud, the post has lost its vertical bearing. Push firmly against the post at shoulder height—any noticeable play indicates foundation failure.' },
+      { heading: 'Loose Fasteners and Splitting Rails', body: 'Wind buffeting forces horizontal rails against their fixings. Look for pulled nails, sheared screws, and splits along the timber where rails attach to posts.' },
+      { heading: 'Gate Post Drift', body: 'Gates are heavy cantilevered loads. Even a two-degree tilt in a gate post will cause the latch to jam or the bottom edge to drag on the paving.' }
+    ],
+    tips: ['Prop leaning posts temporarily with angled 2x4 timbers to prevent domino collapse onto neighbouring property.','Do not attempt to pull a leaning concrete post back with a vehicle—this shatters the footing collar.','Call BoundaryPro for professional post spur installation to brace leaning fences economically.']
+  },
+  'fence-measurement': {
+    title: 'How to Prepare for Your Free BoundaryPro Site Measurement',
+    subtitle: 'Simple steps to clarify your boundary goals, site access, gate locations and style preferences.',
+    hero: 'hero-about',
+    featuredImg: 'assets/img/blog-fence-measurement.webp',
+    secondaryImg: 'assets/img/pricing-consultation.webp',
+    author: 'Ananya Sharma, Customer Consultation Manager',
+    date: 'September 28, 2026',
+    readTime: '5 min read',
+    category: 'Planning & Advice',
+    intro: 'A successful fencing project starts with an accurate, thoughtful site measurement. While our technicians handle all the technical dimensions and soil checks, a little preparation helps us prepare the most accurate quote tailored to your vision.',
+    sections: [
+      { heading: 'Identify Property Markers and Beacons', body: 'Before your appointment, locate any known survey pins, boundary pegs, or existing boundary walls. If you share a boundary with a neighbour, informing them in advance of your measurement visit ensures smooth collaboration.' },
+      { heading: 'Think About Access and Gates', body: 'Consider everyday traffic flow: where do family members, garden mowers, wheelie bins, or service contractors need to enter? Measuring the width needed for vehicle vs pedestrian access helps us position matching gates perfectly.' },
+      { heading: 'Note Slopes, Trees, and Underground Services', body: 'Point out any mature tree roots, buried water lines, or electrical conduits along the proposed fence run so our crew can plan foundation positions safely.' }
+    ],
+    tips: ['Take photos of fence styles you like in the neighborhood or from our BoundaryPro Gallery.','Note down preferred heights: standard garden boundaries are typically 1.8m, while front boundaries often range from 1.0m to 1.2m.','Our measurement technician arrives equipped with digital lasers and material samples for you to see in person.']
+  },
+  'caring-timber': {
+    title: 'Caring for Timber Fencing: Protecting Against Rot, UV and Soil Moisture',
+    subtitle: 'Practical maintenance practices that can add over a decade to the lifespan of your wooden fence.',
+    hero: 'hero-products',
+    featuredImg: 'assets/img/blog-caring-timber.webp',
+    secondaryImg: 'assets/img/product-cedar-slats.webp',
+    author: 'David Vance, Lead Timber Specialist',
+    date: 'September 20, 2026',
+    readTime: '5 min read',
+    category: 'Care & Upkeep',
+    intro: 'Timber fences offer unmatched natural character and warmth, but being an organic material, wood requires sensible protection against moisture, rot fungi, and ultraviolet sunlight breakdown.',
+    sections: [
+      { heading: 'Maintain Ground Clearance and Prevent Soil Contact', body: 'The single biggest cause of premature timber fence rot is direct contact with garden mulch and wet soil. Ensure your fence boards or gravel boards maintain at least 50mm of clearance above garden beds so air circulates freely.' },
+      { heading: 'Trimming Vegetation Away from Panels', body: 'Climbing vines, dense hedges, and overhanging shrubs trap morning dew against fence boards, creating a damp environment where algae and moss thrive. Keep plants pruned at least 100mm back from panels.' },
+      { heading: 'Applying Penetrating Timber Oils vs Surface Paints', body: 'Penetrating hydrophobic oils soak deep into timber grain without forming a brittle film, preventing peeling and moisture entry while enhancing natural cedar tones.' }
+    ],
+    tips: ['Inspect your fence annually before the rainy season for any soft or spongey timber boards.','Use galvanised or stainless steel nails/screws to prevent unsightly black tannin stains on cedar.','Wash down timber surfaces with a mild oxygen-bleach cleaner rather than high-pressure blasting which gouges wood fibers.']
+  },
+  'gate-hardware': {
+    title: 'Gate Hardware Essentials: Hinges, Latches and Drop Bolts That Last',
+    subtitle: 'Why heavy-duty architectural fittings make all the difference in everyday boundary security and ease of use.',
+    hero: 'hero-services',
+    featuredImg: 'assets/img/blog-gate-hardware.webp',
+    secondaryImg: 'assets/img/service-feature-gate.webp',
+    author: 'Marcus Cole, Hardware & Security Specialist',
+    date: 'September 14, 2026',
+    readTime: '4 min read',
+    category: 'Hardware & Design',
+    intro: 'While fence panels remain stationary, gates endure thousands of open-and-close cycles, slamming wind gusts, and gravitational strain every year. Specifying premium hardware guarantees smooth operation and reliable security.',
+    sections: [
+      { heading: 'Adjustable Heavy-Duty Hinges', body: 'Standard fixed-pin butt hinges cannot be adjusted when timber expands or ground shifts slightly. We install adjustable ball-bearing tee hinges or marine-grade stainless pintle hinges that allow easy micro-adjustments without unmounting the gate.' },
+      { heading: 'Self-Latching Magnetic Catches and Keyed Locks', body: 'For pool boundaries and child safety, self-closing spring hinges combined with magnetic latches guarantee positive closure every single time. For perimeter security, double-sided keyed deadbolts prevent reaching over to unlock.' },
+      { heading: 'Drop Bolts and Ground Sockets', body: 'On double driveway gates, heavy-duty drop bolts anchored into stainless steel dust-proof ground sockets keep both leaves rigid in heavy crosswinds.' }
+    ],
+    tips: ['Lubricate pivot points and lock cylinders twice a year with silicone or graphite spray—avoid sticky grease that attracts grit.','Ensure the latch receiver has at least 15mm of engagement overlap to accommodate seasonal gate expansion.','BoundaryPro provides matching gate hardware packages with all new installations.']
+  }
+};
+
+function renderServiceDetail(slug){
+  const s = servicesData[slug];
+  root.innerHTML = ui.hero(s.title, s.sub, s.hero, s.tag) + `
+  <section class="section">
+    <div class="container">
+      <div class="breadcrumb-bar mb-4"><a href="index.html">Home</a> <i class="bi bi-chevron-right"></i> <a href="services.html">Services</a> <i class="bi bi-chevron-right"></i> <span>${s.title}</span></div>
+      <div class="split" style="align-items:start">
+        <div>
+          <span class="eyebrow">SERVICE SCOPE & SPECIFICATION</span>
+          <h2>Crafted for lasting strength & privacy.</h2>
+          <p>${s.intro}</p>
+          <div class="table-scroll my-4">
+            <table class="table">
+              <tbody>
+                ${s.specs.map(([k,v])=>`<tr><th style="width:38%">${k}</th><td>${v}</td></tr>`).join('')}
+              </tbody>
+            </table>
+          </div>
+          <div class="actions mt-4">
+            <button class="btn btn-primary btn-lg" type="button" data-book-service="${slug}">Book This Service</button><a class="btn btn-outline btn-lg" href="contact.html?service=${slug}">Request a Quote</a>
+            <a class="btn btn-outline btn-lg" href="services.html">← All Services</a>
+          </div>
+        </div>
+        <div>
+          ${img(s.contentImg, s.title, 'rounded shadow w-100')}
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section section-alt">
+    <div class="container split">
+      <div>
+        <span class="eyebrow">OUR SYSTEMATIC APPROACH</span>
+        <h2>How we execute this service.</h2>
+        <div class="grid grid-3 mt-4">
+          ${s.steps.map(([n,t,d])=>`<div><span class="step-num">${n}</span><h3>${t}</h3><p>${d}</p></div>`).join('')}
+        </div>
+      </div>
+      <div>
+        ${img(s.secondaryImg, s.title + ' in progress', 'rounded shadow w-100')}
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="section-head"><span class="eyebrow">EXPLORE MORE</span><h2>Related fencing services.</h2></div>
+      <div class="grid grid-3">
+        ${Object.entries(servicesData).filter(([k])=>k!==slug).slice(0,3).map(([k,sv])=>`
+          <article class="card">
+            ${img(sv.contentImg, sv.title)}
+            <div class="card-body">
+              <h3>${sv.title}</h3>
+              <p>${sv.sub}</p>
+              <div class="actions"><a class="btn btn-outline btn-sm" href="services.html?service=${k}">View details <i class="bi bi-arrow-right"></i></a></div>
+            </div>
+          </article>
+        `).join('')}
+      </div>
+    </div>
+  </section>
+  ${cta()}`;
+  return true;
+}
+
+function renderBlogDetail(slug){
+  const p = blogData[slug];
+  root.innerHTML = ui.hero(p.title, p.subtitle, p.hero, 'PRACTICAL FENCING GUIDE · ' + p.category.toUpperCase()) + `
+  <section class="section">
+    <div class="container" style="max-width:880px">
+      <div class="breadcrumb-bar mb-4"><a href="index.html">Home</a> <i class="bi bi-chevron-right"></i> <a href="blog.html">Blog & Guides</a> <i class="bi bi-chevron-right"></i> <span>${p.title}</span></div>
+      <div class="blog-meta-strip mb-4 pb-3 border-bottom d-flex flex-wrap gap-3 align-items-center">
+        <span><i class="bi bi-person-circle"></i> ${p.author}</span>
+        <span><i class="bi bi-calendar3"></i> ${p.date}</span>
+        <span><i class="bi bi-clock"></i> ${p.readTime}</span>
+        <span class="pill">${p.category}</span>
+      </div>
+      <div class="blog-featured-img mb-5">
+        ${img(p.featuredImg, p.title, 'w-100 rounded shadow')}
+      </div>
+      <div class="blog-body mb-4">
+        <p class="fs-5" style="line-height:1.75;font-weight:500">${p.intro}</p>
+      </div>
+      ${p.sections.map(sec=>`
+        <div class="blog-article-sec my-4">
+          <h2>${sec.heading}</h2>
+          <p>${sec.body}</p>
+        </div>
+      `).join('')}
+      <div class="blog-tip-box p-4 my-5" style="background:var(--surface);border-inline-start:4px solid var(--accent);border-radius:var(--radius);box-shadow:var(--shadow)">
+        <h3 class="mb-3"><i class="bi bi-lightbulb-fill" style="color:var(--accent)"></i> Field Expert Tips</h3>
+        <ul class="mb-0 ps-3">
+          ${p.tips.map(t=>`<li class="mb-2">${t}</li>`).join('')}
+        </ul>
+      </div>
+      <div class="my-5">
+        ${img(p.secondaryImg, p.title + ' application', 'w-100 rounded shadow')}
+      </div>
+      <div class="d-flex justify-content-between align-items-center pt-4 border-top">
+        <a class="btn btn-outline" href="blog.html">← Back to All Guides</a>
+        <a class="btn btn-primary" href="contact.html">Discuss Your Project</a>
+      </div>
+    </div>
+  </section>
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head"><span class="eyebrow">RELATED GUIDES</span><h2>Continue reading expert fencing advice.</h2></div>
+      <div class="grid grid-3">
+        ${Object.entries(blogData).filter(([k])=>k!==slug).slice(0,3).map(([k,art])=>`
+          <article class="card">
+            ${img(art.featuredImg, art.title)}
+            <div class="card-body">
+              <span class="pill">${art.category}</span>
+              <h3>${art.title}</h3>
+              <p>${art.subtitle}</p>
+              <div class="actions"><a class="btn btn-outline btn-sm" href="blog.html?post=${k}">Read article <i class="bi bi-arrow-right"></i></a></div>
+            </div>
+          </article>
+        `).join('')}
+      </div>
+    </div>
+  </section>
+  ${cta()}`;
+  return true;
+}
+
+function extendedPage(){
+  const svcParam = new URLSearchParams(location.search).get('service');
+  if(page === 'services.html' && svcParam && servicesData[svcParam]) {
+    return renderServiceDetail(svcParam);
+  }
+  const postParam = new URLSearchParams(location.search).get('post');
+  if(page === 'blog.html' && postParam && blogData[postParam]) {
+    return renderBlogDetail(postParam);
+  }
+const pages={
+'services.html':{title:'Fencing services, built around your site.',sub:'From new boundary installations to gate repairs and security upgrades, our approach begins with the right measurements.',img:'hero-services',tag:'INSTALLATION & REPAIR'},
+'about.html':{title:'Boundaries built on trust.',sub:'A practical approach to privacy, security and long-lasting workmanship for homes and businesses.',img:'hero-about',tag:'OUR APPROACH'},
+'blog.html':{title:'Field notes on better fencing.',sub:'Useful advice on materials, repairs, security and choosing a boundary that works for your property.',img:'hero-blog',tag:'THE FENCING JOURNAL'}};const x=pages[page];if(!x)return false;const tiles=page==='services.html'?[
+['assets/img/service-new-installation.webp','New fence installation','Accurate site measurements, material selection, post placement and professional installation.','services.html?service=new-installation'],
+['assets/img/service-fence-repair.webp','Damaged fence repair','Leaning posts, damaged panels, corroded sections and misaligned gates repaired with care.','services.html?service=fence-repair'],
+['assets/img/service-security-fencing.webp','Commercial security fencing','Welded mesh, anti-climb solutions and reinforced access gates for commercial sites.','services.html?service=security-fencing'],
+['assets/img/service-residential-privacy.webp','Residential privacy fencing','Timber, composite and vinyl boundaries designed for comfortable outdoor spaces.','services.html?service=residential-privacy'],
+['assets/img/service-farm-boundary.webp','Farm & agricultural fencing','Durable chain-link and practical post systems for larger sites and rural properties.','services.html?service=farm-boundary'],
+['assets/img/service-gate-access.webp','Gate installation & realignment','Matching pedestrian and vehicle gates with secure hardware and dependable alignment.','services.html?service=gate-access'],
+['assets/img/service-rust-restoration.webp','Rust treatment & restoration','Sandblasting, corrosion inhibitors, metal primers and protective long-lasting coatings.','services.html?service=rust-restoration'],
+['assets/img/service-emergency-repair.webp','Emergency storm-damage repair','Immediate boundary securing, fallen panel replacement and structural post restoration.','services.html?service=emergency-repair'],
+['assets/img/service-boundary-inspection.webp','Fence inspection & boundary assessment','Check post stability, damaged fixings, fence alignment and material condition before planning a safe repair or upgrade.','services.html?service=boundary-inspection']
+]:page==='about.html'?[
+['bi-clipboard-check','Site-first planning','Every fence starts with an understanding of property lines, access and the intended level of privacy.','contact.html'],
+['bi-bricks','Material knowledge','We explain the trade-offs between timber, metal, vinyl and composite before you choose.','products.html'],
+['bi-shield-check','Security-minded','Gate reinforcement, suitable heights and sensible hardware options are planned from the start.','services.html'],
+['bi-wrench-adjustable','Repair before replace','We assess whether posts, panels or hardware can be repaired before recommending a new boundary.','services.html'],
+['bi-chat-dots','Clear communication','Simple explanations, practical estimates and a written scope before installation begins.','contact.html'],
+['bi-geo-alt','Local site conditions','Soil, drainage, slopes and neighbouring boundaries inform the final installation method.','contact.html']
+]:[
+['assets/img/blog-timber-vs-composite.webp','Timber or composite?','Compare natural character, privacy, upkeep and lifespan when selecting a garden fence.','blog.html?post=timber-vs-composite'],
+['assets/img/blog-security-mesh.webp','Choosing security mesh','Understand panel rigidity, post spacing and gate hardware for commercial sites.','blog.html?post=security-mesh'],
+['assets/img/blog-storm-damage.webp','After storm damage','What to inspect when a fence starts leaning, panels loosen or gate posts shift.','blog.html?post=storm-damage'],
+['assets/img/blog-fence-measurement.webp','Before your measurement','How to prepare a boundary sketch, check access and discuss height requirements.','blog.html?post=fence-measurement'],
+['assets/img/blog-caring-timber.webp','Caring for timber','Learn why drainage, coatings and airflow help reduce premature fence deterioration.','blog.html?post=caring-timber'],
+['assets/img/blog-gate-hardware.webp','A gate that closes properly','Hinges, post stability and latch positioning all affect day-to-day security.','blog.html?post=gate-hardware']
+];root.innerHTML=ui.hero(x.title,x.sub,x.img,x.tag)+`<section class="section"><div class="container"><div class="section-head"><span class="eyebrow">${page==='blog.html'?'PRACTICAL GUIDES':'BUILT TO PERFORM'}</span><h2>${page==='blog.html'?'Advice worth keeping.':page==='about.html'?'What matters on every project.':'Solutions for every kind of boundary.'}</h2><p>${page==='blog.html'?'Clear explanations to help you make confident decisions.':'Strong materials, careful installation and sensible advice, tailored to your property.'}</p></div><div class="grid grid-3 ${page==='services.html'?'bp-service-grid':''}">${tiles.map(([media,title,desc,url],i)=>{const isImg=media.startsWith('assets/img/');return `<article class="card ${isImg?'':'editorial-card'}">${isImg?img(media,title):''}<div class="card-body">${isImg?'':`<span class="editorial-number">0${i+1}</span><i class="bi ${media} feature-icon" aria-hidden="true"></i>`}<h3>${title}</h3><p>${desc}</p><div class="actions"><a class="btn btn-outline btn-sm" href="${url}">${page==='blog.html'?'Explore topic':'Explore service'} <i class="bi bi-arrow-right"></i></a>${page==='services.html'?`<button type="button" class="btn btn-primary btn-sm" data-book-service="${url.split('service=')[1]||'new-installation'}">Book This Service</button>`:''}</div></div></article>`}).join('')}</div></div></section>${page==='services.html'?`<section class="section service-feature"><div class="container split"><img src="assets/img/service-feature-gate.webp" alt="Luxury automated modern boundary gate with stone pillars" width="700" height="470" loading="lazy"><div class="gate-feature-content"><div class="gate-feature-heading"><span class="eyebrow">COMPLETE GATE & FENCE SOLUTIONS</span><h2>One boundary. Every detail considered.</h2></div><p>From secure entrance gates and reinforced posts to matching privacy panels, our team helps you plan a complete perimeter that looks consistent and performs reliably.</p><div class="feature-points gate-feature-points"><span><i class="bi bi-check-circle"></i> Secure gate alignment</span><span><i class="bi bi-check-circle"></i> Strong posts and hardware</span><span><i class="bi bi-check-circle"></i> Practical access planning</span><span><i class="bi bi-check-circle"></i> Weather-resistant gate fittings</span></div><div class="actions"><a class="btn btn-primary" href="contact.html?service=installation">Discuss Gate Options</a></div></div></div></section>`:''}<section class="section section-alt"><div class="container split"><div><span class="eyebrow">THE BOUNDARYPRO METHOD</span><h2>Made for real properties, not just a catalogue.</h2><p>Good fencing balances privacy, durability, security and maintenance. We help you compare materials, plan access points and make choices that suit your site and budget.</p><a class="btn btn-primary" href="contact.html">Get Expert Recommendations</a></div><img src="assets/img/${page==='about.html'?'about-craftsmanship':page==='blog.html'?'blog-guide-method':'services-craftsmanship'}.webp" width="700" height="470" loading="lazy" alt="Professionally installed fencing on a completed property"></div></section>${page==='services.html'?`<section class="section bp-service-addition"><div class="container"><div class="section-head"><span class="eyebrow">SITE ASSESSMENT & PLANNING</span><h2>Know your boundary before installation begins.</h2><p>Our measurement visit checks the practical details that influence fence strength, appearance and cost.</p></div><div class="grid grid-3"><article class="card"><div class="card-body"><i class="bi bi-rulers feature-icon" aria-hidden="true"></i><h3>Accurate boundary survey</h3><p>We measure the fence line, assess corners, slopes and gate openings, and identify access constraints.</p></div></article><article class="card"><div class="card-body"><i class="bi bi-shield-check feature-icon" aria-hidden="true"></i><h3>Material & security advice</h3><p>Compare privacy, strength, lifespan and maintenance for timber, metal, mesh and composite systems.</p></div></article><article class="card"><div class="card-body"><i class="bi bi-file-earmark-text feature-icon" aria-hidden="true"></i><h3>Clear installation proposal</h3><p>Receive a practical recommendation covering posts, foundations, gate hardware and indicative timelines.</p></div></article></div><div class="bp-service-cta"><a class="btn btn-primary btn-lg" href="contact.html?service=installation">Plan Your Installation</a></div></div></section>`:''}${cta()}`;return true}
+if(page==='home-commercial.html')commercialHome();else if(['services.html','about.html','blog.html'].includes(page))extendedPage();else if(page==='index.html')home();else if(page==='products.html')productsPage();else if(page==='pricing.html')pricingPage();else if(page==='gallery.html')galleryPage();else if(page==='contact.html')contactPage();else if(page==='login.html')authPage('login');else if(page==='register.html')authPage('register');else if(page==='profile.html')profilePage();else if(page==='privacy-policy.html')legalPage(true);else if(page==='terms-of-service.html')legalPage(false);else notFound();try{const m=sessionStorage.getItem('bp-login-toast');if(m){sessionStorage.removeItem('bp-login-toast');setTimeout(()=>ui.toast(m),70)}}catch{}document.addEventListener('click',e=>{const btn=e.target.closest('[data-book-service]');if(!btn)return;const slug=btn.dataset.bookService||'new-installation';const dest='contact.html?service='+encodeURIComponent(slug);if(BPAuth.get()){location.href=dest;return}const old=document.getElementById('bp-book-gate');old?.remove();const shade=document.createElement('div');shade.id='bp-book-gate';shade.className='bp-book-gate';shade.innerHTML=`<div class="bp-book-gate-panel" role="dialog" aria-modal="true" aria-labelledby="bp-book-gate-heading"><button class="bp-book-close" type="button" aria-label="Close dialog" data-close-book-gate>&times;</button><div class="bp-book-gate-icon"><i class="bi bi-shield-lock"></i></div><h2 id="bp-book-gate-heading">Sign in to book this service</h2><p>Sign in or create an account to continue your measurement request. We'll return you to the booking form for the selected service.</p><div class="bp-book-gate-actions"><a class="btn btn-primary" href="login.html?returnTo=${encodeURIComponent(dest)}">Sign In to Book Service</a><a class="btn btn-outline" href="register.html?returnTo=${encodeURIComponent(dest)}">Create Account</a></div></div>`;document.body.append(shade);shade.querySelector('.bp-book-close').focus();function close(){shade.remove();document.removeEventListener('keydown',esc);btn.focus()}function esc(k){if(k.key==='Escape')close()}shade.addEventListener('click',x=>{if(x.target===shade||x.target.closest('[data-close-book-gate]'))close()});document.addEventListener('keydown',esc)});document.addEventListener('input',e=>{if(e.target.matches('[data-digits]'))e.target.value=e.target.value.replace(/\D/g,'')});document.addEventListener('paste',e=>{if(e.target.matches('[data-digits]')){e.preventDefault();const s=(e.clipboardData.getData('text')||'').replace(/\D/g,'');e.target.value=(e.target.value+s).slice(0,10)}});document.addEventListener('drop',e=>{if(e.target.matches('[data-digits]'))e.preventDefault()});});
+;
+
+/* ===== content-enhancements.js ===== */
+/* Additional practical content for BoundaryPro Fencing. No existing handlers are replaced. */
+document.addEventListener('DOMContentLoaded', () => {
+  const page = location.pathname.split('/').pop() || 'index.html';
+  const root = document.getElementById('page-content');
+  if (!root) return;
+  const sections = {
+    'index.html': {
+      tag:'BEFORE YOU CHOOSE',title:'A better fence starts with the right questions.',
+      intro:'Every boundary is different. Consider how you use the space, what you need to screen and how much maintenance you want before selecting a material.',
+      items:[['bi-eye-slash','Privacy that fits your property','Choose solid panels for secluded gardens or open pickets when visibility and kerb appeal matter.'],['bi-shield-lock','Security at every entry','Think beyond fence height: posts, hinges, gates, locks and access routes all influence protection.'],['bi-cloud-rain','Materials made for the climate','Discuss drainage, sun exposure, corrosion resistance and routine care before deciding on timber or metal.']],
+      link:'products.html',cta:'Compare Fence Materials'
+    },
+    'home-commercial.html': {
+      tag:'COMMERCIAL SITE CHECKLIST',title:'Security planning beyond the fence line.',
+      intro:'A commercial perimeter must work alongside daily vehicle movements, pedestrian access and the security procedures of the site.',
+      items:[['bi-truck','Vehicle and delivery access','Allow for safe turning space, clear gate openings and practical vehicle entry points.'],['bi-grid-3x3-gap','Panel strength and post spacing','Match mesh aperture, post foundations and panel height to the level of deterrence needed.'],['bi-camera-video','Visibility and monitoring','Plan sight lines, lighting and CCTV-ready mounting points before installation.']],
+      link:'contact.html?service=installation',cta:'Arrange a Security Site Visit'
+    },
+    'services.html': {
+      tag:'REPAIR OR REPLACE?',title:'Practical guidance before any fence work.',
+      intro:'A damaged fence does not always need complete replacement. The condition of the posts, foundations and surrounding panels determines the most sensible repair plan.',
+      items:[['bi-wrench-adjustable','Repairable damage','Loose hinges, isolated broken boards and surface rust can often be addressed without replacing the entire run.'],['bi-exclamation-triangle','Signs of structural failure','Leaning posts, unstable foundations and widespread rot deserve a more detailed site assessment.'],['bi-calendar-check','Plan around access','We consider property entry, pets, vehicles and neighbouring boundaries when scheduling installation or repair.']],
+      link:'contact.html?service=repair',cta:'Request a Fence Assessment'
+    },
+    'products.html': {
+      tag:'MATERIAL BUYING GUIDE',title:'Choose by performance, not appearance alone.',
+      intro:'Our starting prices are guides. Fence height, post foundations, gate hardware, finish and site access influence the final installed cost.',
+      items:[['bi-tree','Timber and composite','Timber provides a natural finish; composite offers a similar look with a different maintenance profile.'],['bi-shield-check','Steel and aluminium','Metal options suit modern boundaries and security needs; finish and corrosion protection are important.'],['bi-rulers','Height and foundations','The same material can perform differently depending on post spacing, ground conditions and fence height.']],
+      link:'contact.html?service=installation',cta:'Get a Site-Specific Quote'
+    },
+    'gallery.html': {
+      tag:'PROJECT INSPIRATION',title:'Turn a reference photo into a practical plan.',
+      intro:'Found a fence style you like? We can discuss which elements suit your property and what changes may be needed for the site conditions.',
+      items:[['bi-images','Save your preferred style','Take note of the panel pattern, material colour, gate design and desired privacy level.'],['bi-geo-alt','Check the setting','Sloped ground, corners, neighbouring walls and entrances may affect the final layout.'],['bi-clipboard-check','Measure before committing','A site measurement helps confirm quantities, post locations and the most suitable installation method.']],
+      link:'contact.html',cta:'Book a Design Measurement'
+    },
+    'about.html': {
+      tag:'OUR WORKING PRINCIPLES',title:'Clear advice from first visit to final check.',
+      intro:'We focus on straightforward recommendations and a practical scope of work, whether you need a small gate adjustment or a complete new perimeter.',
+      items:[['bi-chat-square-text','Explain the options','Understand material trade-offs, approximate maintenance and gate hardware before approving a design.'],['bi-clipboard-data','Define the scope','A useful quotation describes the proposed fence run, height, posts and any access requirements.'],['bi-patch-check','Review the finish','Check alignment, stability, gates and the agreed installation details when work is complete.']],
+      link:'contact.html',cta:'Discuss Your Boundary'
+    },
+    'blog.html': {
+      tag:'HOMEOWNER KNOW-HOW',title:'Small checks that help fences last longer.',
+      intro:'Seasonal inspection and early repairs can reduce avoidable damage to panels, posts and gates.',
+      items:[['bi-droplet','Manage standing water','Keep soil and drainage from trapping moisture against vulnerable timber and metal components.'],['bi-door-open','Check moving hardware','Look for sagging hinges, stiff latches and gates that scrape the ground.'],['bi-search','Inspect after severe weather','Check loose panels, leaning posts and newly exposed fixings after strong winds or storms.']],
+      link:'services.html',cta:'Explore Repair Services'
+    },
+    'pricing.html': {
+      tag:'UNDERSTANDING YOUR ESTIMATE',title:'What shapes the final installation price?',
+      intro:'Basic, Standard and Premium options are starting points. A written measurement-based quote reflects your chosen materials and actual site conditions.',
+      items:[['bi-rulers','Boundary length and height','Longer fence runs, taller panels and changes in ground level can change material quantities.'],['bi-bricks','Foundations and ground','Soil conditions, concrete requirements and existing structures affect post installation.'],['bi-door-closed','Gates and custom details','Matching gates, special finishes and security hardware are specified separately where needed.']],
+      link:'contact.html',cta:'Request an Accurate Estimate'
+    },
+    'contact.html': {
+      tag:'BEFORE YOUR MEASUREMENT',title:'A few details help us prepare.',
+      intro:'You do not need a perfect site plan. Even approximate information can help us understand the scope before visiting.',
+      items:[['bi-pin-map','Identify the boundary','Mention the property edges, gates or corners you want included in the project.'],['bi-camera','Share useful photographs','Photos of existing posts, damaged sections or the intended fence line can clarify your enquiry.'],['bi-clock-history','Tell us your timeframe','Let us know about urgent repairs, site access hours and any planned construction work.']],
+      link:'products.html',cta:'Review Fence Options'
+    },
+    'profile.html': {
+      tag:'YOUR FENCING PROJECT',title:'Keep your measurement details together.',
+      intro:'Your submitted requests are stored in this browser for demonstration purposes. Keep a separate copy of any important project details.',
+      items:[['bi-journal-text','Review the requested work','Check the fence material, estimated length and preferred appointment details.'],['bi-envelope','Confirm with the company','This demo does not automatically send a booking to a real office or contractor.'],['bi-shield-lock','Protect your information','Avoid entering sensitive personal information into a demonstration form.']],
+      link:'contact.html',cta:'Submit Another Measurement'
+    }
+  };
+  const content = sections[page];
+  if (content) {
+    const section = document.createElement('section');
+    section.className='section section-alt bp-extra-guidance';
+    section.innerHTML=`<div class="container"><div class="section-head"><span class="eyebrow">${content.tag}</span><h2>${content.title}</h2><p>${content.intro}</p></div><div class="grid grid-3">${content.items.map(([icon,title,description])=>`<article class="card bp-guidance-card"><div class="card-body"><i class="bi ${icon} feature-icon" aria-hidden="true"></i><h3>${title}</h3><p>${description}</p></div></article>`).join('')}</div><div class="bp-centered-cta"><a class="btn btn-primary btn-lg" href="${content.link}">${content.cta} <i class="bi bi-arrow-right" aria-hidden="true"></i></a></div></div>`;
+    const finalCta = root.querySelector('.cta-band');
+    if (finalCta) finalCta.before(section); else root.append(section);
+  }
+  // Auth pages should remain one-screen on desktop: enrich their existing trust panel, not page height.
+  if (page==='login.html'||page==='register.html') {
+    const trust = root.querySelector('.auth-photo-premium');
+    if (trust) trust.setAttribute('aria-label','Premium security fencing and reliable installation services');
+  }
+  // Legal and 404 pages have purposeful existing copy; avoid interrupting legal documents with marketing blocks.
+});
+
+;
+
+/* ===== major-content-upgrade.js ===== */
+/* Expanded editorial content, genuine ninth service, pricing matrix and illustrative sample leadership. */
+document.addEventListener('DOMContentLoaded',()=>{
+ const root=document.getElementById('page-content');if(!root)return;
+ const page=location.pathname.split('/').pop()||'index.html';
+ const section=(tag,title,desc,cards,cta='Discuss Your Fence Plans',url='contact.html')=>`<section class="section bp-depth-section"><div class="container"><div class="section-head"><span class="eyebrow">${tag}</span><h2>${title}</h2><p>${desc}</p></div><div class="grid grid-3">${cards.map(([title,copy,icon])=>`<article class="card bp-depth-card"><div class="card-body"><i class="bi bi-${icon} feature-icon" aria-hidden="true"></i><h3>${title}</h3><p>${copy}</p></div></article>`).join('')}</div><div class="bp-centered-action"><a href="${url}" class="btn btn-primary btn-lg">${cta}</a></div></div></section>`;
+ const additions={
+ 'index.html':['DESIGNED FOR REAL LIFE','Privacy, kerb appeal and security in one considered boundary.','A fence should do more than mark the property line. The right specification also improves how your outdoor space works every day.',[['Comfortable outdoor living','Solid privacy panels can screen seating areas, reduce overlooking and create a calmer garden without blocking useful access.','house-heart'],['Details that last','Ground clearance, drainage, post spacing and the right protective finish help prevent premature movement, corrosion and rot.','bricks'],['Gates that feel effortless','A properly sized pedestrian or vehicle gate needs dependable hinges, secure latching and room to open safely.','door-open']]],
+ 'home-commercial.html':['SECURITY IN PRACTICE','A stronger perimeter starts with a workable access plan.','We help facilities balance deterrence, daily operations and future maintenance without treating every site as identical.',[['Warehouse & logistics access','Specify gate widths, vehicle clearance and pedestrian separation to keep deliveries moving safely.','truck'],['Perimeter risk review','Assess visibility, climbing opportunities, weak corners and exposed gates before selecting mesh and topping details.','shield-lock'],['Long-term durability','Choose suitable protective coatings, foundations and maintenance schedules for industrial exposure and heavy use.','tools']]],
+ 'services.html':['AFTERCARE THAT MATTERS','Installation is only the beginning of a dependable fence.','Practical inspection and maintenance can extend service life and help catch small faults before they become expensive repairs.',[['Post and foundation checks','Inspect leaning posts, exposed concrete, soil movement and standing water after heavy weather.','rulers'],['Gate hardware servicing','Check hinges, catches, stops and locks for wear, loose fixings and alignment problems.','wrench-adjustable'],['Surface protection','Look for flaking finishes, rust spots, timber splitting and areas where vegetation traps moisture.','droplet']]],
+ 'products.html':['CHOOSING THE RIGHT MATERIAL','Compare appearance, care and security together.','The lowest initial price is not always the lowest lifetime cost. Material selection should reflect the site and how you use it.',[['Timber: warm and adaptable','Great for residential privacy and natural gardens, with periodic coatings and moisture control.','tree'],['Metal: strong and versatile','Aluminium offers low maintenance while steel and welded mesh can suit higher-security applications.','shield-check'],['PVC & composite: easy care','Useful for a neat, consistent finish where routine painting is undesirable; check structural suitability for your site.','layers']]],
+ 'gallery.html':['FROM INSPIRATION TO INSTALLATION','Make a project photo useful for your own property.','When you find a look you like, compare the fence height, colour, panel spacing and gate arrangement against your actual boundary.',[['Identify the fence profile','Notice whether the reference uses horizontal slats, pickets, solid boards, mesh or ornamental steel.','grid-3x3-gap'],['Check terrain and surroundings','A style that works on a level frontage may need stepped panels or custom posts on a sloped site.','geo-alt'],['Plan the complete frontage','Coordinate the fence finish with gates, driveway openings, pedestrian access and nearby architecture.','bounding-box']]],
+ 'about.html':['OUR WORKING PROMISE','Clear scope, careful workmanship and sensible aftercare.','A well-built fence depends on good preparation and reliable communication as much as it depends on the chosen panels.',[['Site-specific recommendations','We discuss privacy, access, security, material upkeep and the condition of existing foundations.','clipboard-check'],['Transparent specifications','Our proposals should clearly identify panel type, post spacing, gate hardware, finish and installation assumptions.','file-earmark-text'],['Respect for your property','We plan access, debris handling and tidy handover so the completed boundary is ready to use.','house-check']]],
+ 'blog.html':['SEASONAL MAINTENANCE','Simple inspections that can prevent bigger repairs.','A quick walk along the fence line after a storm or during seasonal maintenance helps identify issues early.',[['After heavy rain','Check for pooling water, softened soil, leaning posts and newly loose panels.','cloud-rain'],['Before repainting','Remove dirt and loose coatings, treat corrosion and confirm the surface is dry and sound.','paint-bucket'],['When a gate drags','Look for post movement, hinge wear and ground clearance before adjusting the latch alone.','door-closed']]],
+ 'pricing.html':['UNDERSTANDING YOUR ESTIMATE','What can change the final price per metre?','Displayed plans are illustrative starting points. The measurement visit determines the correct specification and written project estimate.',[['Height, layout & corners','Taller panels, irregular boundaries and stepped installations affect materials and labour.','rulers'],['Posts, soil & foundations','Ground stability, excavation, concrete foundations and buried obstructions influence installation scope.','bricks'],['Gates, finishes & access','Security locks, vehicle gates, corrosion protection and difficult access can add to the final cost.','calculator']]],
+ 'contact.html':['BEFORE YOUR MEASUREMENT','A few details help us prepare a useful site visit.','You do not need technical drawings to get started. A clear description of your boundary and access needs is enough for an initial discussion.',[['Approximate length','Measure or estimate the run, including corners and gate openings. We will verify dimensions on site.','rulers'],['Desired outcome','Tell us whether privacy, livestock control, appearance or higher security matters most.','bullseye'],['Site considerations','Mention slopes, drainage, existing damage, vehicle access and any known boundary restrictions.','geo-alt']]]
+ };
+ function insertBeforeLastCta(markup){const ctas=[...root.querySelectorAll('.cta-band')];const target=ctas.at(-1);if(target)target.insertAdjacentHTML('beforebegin',markup);else root.insertAdjacentHTML('beforeend',markup)}
+ if(additions[page])insertBeforeLastCta(section(...additions[page]));
+ if(page==='pricing.html'){
+ const rows=[['Indicative starting price','₹1,250/m','₹2,450/m','₹4,250/m'],['Initial site measurement','Included','Included','Included'],['Material choices','Standard','Expanded','Tailored premium'],['Post foundations','Standard specification','Reinforced options','Site-specific design'],['Gate & lock planning','Basic advice','Detailed planning','Advanced security options'],['Privacy / security consultation','Essential','Enhanced','Comprehensive'],['Finish and aftercare','Installation guidance','Enhanced aftercare','Extended options'],['Best suited to','Simple residential / farm','Family privacy / mixed use','Architectural / high-security']];
+ const markup=`<section class="section bp-comparison"><div class="container"><div class="section-head"><span class="eyebrow">PACKAGE COMPARISON</span><h2>Compare Basic, Standard and Premium at a glance.</h2><p>See what each indicative package covers before booking a measurement. Standard is the most popular option for everyday privacy and security.</p></div><div class="bp-table-scroll" role="region" aria-label="Fencing pricing package comparison" tabindex="0"><table class="bp-plan-table"><thead><tr><th scope="col">Features</th><th scope="col">Basic</th><th scope="col" class="bp-featured-col">Standard <span class="bp-popular-mini">Most Popular</span></th><th scope="col">Premium</th></tr></thead><tbody>${rows.map(row=>`<tr>${row.map((v,i)=>i?`<td class="${i===2?'bp-featured-col':''}">${v}</td>`:`<th scope="row">${v}</th>`).join('')}</tr>`).join('')}<tr><th scope="row">Next step</th>${['basic','standard','premium'].map((p,i)=>`<td class="${i===1?'bp-featured-col':''}"><a class="btn ${i===1?'btn-primary':'btn-outline'} btn-sm" href="contact.html?service=installation&plan=${p}">Choose ${p[0].toUpperCase()+p.slice(1)}</a></td>`).join('')}</tr></tbody></table></div><p class="bp-table-note">Sample starting rates only. Final written quotes depend on measured length, materials, foundations, gates, access and site conditions.</p></div></section>`;
+ const first=root.querySelector('.pricing-grid')?.closest('section');if(first)first.insertAdjacentHTML('afterend',markup);else insertBeforeLastCta(markup);
+ }
+ if(page==='about.html'){
+ const profiles=[['Founder & Fencing Advisor','Founder','leadership-founder.webp','BoundaryPro Master Fence Builder and Founder portrait','Sets the business direction, prioritising responsible material recommendations and clear customer communication.'],['Chief Executive Officer','CEO','leadership-ceo.webp','BoundaryPro Chief Executive Officer portrait','Oversees service standards, commercial planning and consistent project delivery across residential and industrial sites.'],['Installation Operations Manager','Manager','leadership-manager.webp','BoundaryPro Installation Operations Manager portrait','Coordinates site measurements, installation scheduling, quality checks and practical repair follow-up.']];
+ insertBeforeLastCta(`<section class="section bp-leadership"><div class="container"><div class="section-head"><span class="eyebrow">LEADERSHIP & OPERATIONS</span><h2>People behind every well-planned boundary.</h2><p>Meet the team responsible for planning, service quality and installation coordination across residential, agricultural and commercial fencing projects.</p></div><div class="grid grid-3">${profiles.map(([role,label,image,alt,desc])=>`<article class="card bp-leader-card"><img src="assets/img/${image}" width="480" height="480" loading="lazy" alt="${alt}"><div class="card-body"><span class="eyebrow">${label}</span><h3>${role}</h3><p>${desc}</p><small>Senior Fencing Leadership Team</small></div></article>`).join('')}</div></div></section>`);
+ }
+ const testimonials=[['Residential fencing','The material options were explained clearly, including how privacy and upkeep differ between timber and composite.','Sample residential customer'],['Gate repair','The repair assessment helped us understand why the gate had shifted and which parts needed attention.','Sample repair customer'],['Commercial perimeter','Planning the access gates alongside the mesh panels made the overall security proposal easier to review.','Sample commercial customer']];
+ if(['home-commercial.html','services.html','about.html','products.html','pricing.html','contact.html'].includes(page))insertBeforeLastCta(`<section class="section bp-testimonials"><div class="container"><div class="section-head"><span class="eyebrow">CUSTOMER EXPERIENCES</span><h2>Confidence built through clear planning.</h2><p>Illustrative customer feedback showing the service standards we aim to deliver. Replace these examples with verified reviews before launch.</p></div><div class="grid grid-3">${testimonials.map(([tag,quote,author])=>`<article class="card bp-review-card"><div class="card-body"><div class="bp-review-stars" aria-label="Five stars">★★★★★</div><span class="eyebrow">${tag}</span><p>“${quote}”</p><strong>${author}</strong><small>Sample testimonial</small></div></article>`).join('')}</div></div></section>`);
+});
+
+;
+
+/* === BoundaryPro: motion progressive enhancement ===
+   No global opacity:0 rules, no blocking animation states, and no reflow.
+   Newly filtered items are observed after their content is added. */
+(() => {
+  'use strict';
+  document.addEventListener('DOMContentLoaded', () => {
+    const root = document.getElementById('page-content');
+    if (!root || !('IntersectionObserver' in window) || !Element.prototype.animate) return;
+    const motionPreference = window.matchMedia?.('(prefers-reduced-motion: reduce)');
+    if (motionPreference?.matches) return;
+    const selector = [
+      '.hero-home .hero-copy', '.inner-hero .container',
+      '.auth-shell-redesign .auth-photo-premium', '.auth-shell-redesign .auth-form-area',
+      '.section-head', '.split > img', '.split > .image-wrap',
+      '.section .card', '.pricing-card', '.gallery-card',
+      '.bp-depth-card', '.bp-review-card', '.bp-leader-card',
+      '.form-panel', '.map-frame', '.bp-table-scroll',
+      '.accordion', '.profile-request-item', '.profile-stat-box',
+      '.cta-band .container'
+    ].join(',');
+    const observed = new WeakSet();
+    let observer;
+    const animateOnEnter = (el) => {
+      // If a card is changed/replaced via filtering, the new node animates once.
+      if (!el.isConnected || motionPreference?.matches) return;
+      const parent = el.parentElement;
+      const index = parent ? Array.prototype.indexOf.call(parent.children, el) : 0;
+      const stagger = Math.min(Math.max(index, 0) % 4 * 55, 165);
+      const short = el.matches('.hero-home .hero-copy, .inner-hero .container');
+      try {
+        el.animate(
+          [
+            { opacity: .76, transform: `translate3d(0, ${short ? 15 : 11}px, 0)` },
+            { opacity: 1, transform: 'translate3d(0, 0, 0)' }
+          ],
+          { duration: short ? 570 : 470, delay: stagger, easing:'cubic-bezier(.2,.75,.2,1)', fill:'none' }
+        );
+      } catch (_) { /* keep content visible in unsupported browsers */ }
+      el.dataset.bpMotionDone = 'true';
+    };
+    try {
+      observer = new IntersectionObserver((entries) => {
+        for (const entry of entries) {
+          if (!entry.isIntersecting) continue;
+          observer.unobserve(entry.target);
+          animateOnEnter(entry.target);
+        }
+      }, { threshold: .08, rootMargin: '0px 0px -6% 0px' });
+    } catch (_) { return; }
+    const observeNewNodes = (scope) => {
+      if (!scope?.querySelectorAll) return;
+      const nodes = scope.matches?.(selector) ? [scope, ...scope.querySelectorAll(selector)] : scope.querySelectorAll(selector);
+      for (const el of nodes) {
+        if (observed.has(el)) continue;
+        observed.add(el);
+        observer.observe(el);
+      }
+    };
+    observeNewNodes(root);
+    // The shared footer is generated dynamically and also receives a soft enter.
+    const footer = document.getElementById('site-footer');
+    if (footer) {
+      const footerNewsletter = footer.querySelector('.bp-reference-newsletter');
+      if (footerNewsletter && !observed.has(footerNewsletter)) {
+        observed.add(footerNewsletter); observer.observe(footerNewsletter);
+      }
+    }
+    if (!('MutationObserver' in window)) return;
+    // Watch only newly inserted nodes; existing style/state changes are ignored.
+    const watch = new MutationObserver((mutations) => {
+      for (const mutation of mutations) for (const node of mutation.addedNodes) {
+        if (node.nodeType === 1) observeNewNodes(node);
+      }
+    });
+    watch.observe(root, { childList:true, subtree:true });
+    motionPreference?.addEventListener?.('change', (event) => {
+      if (event.matches) { observer.disconnect(); watch.disconnect(); }
+    });
+  });
+})();
