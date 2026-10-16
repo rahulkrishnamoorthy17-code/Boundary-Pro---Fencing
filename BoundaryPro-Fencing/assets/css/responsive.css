@@ -1,0 +1,177 @@
+/* BoundaryPro: last-in-cascade responsive corrections. Preserve the established
+   forest/cream/gold palette, footer, content, gallery assets and interactions. */
+
+/* All viewports: media, flex children and grids must be allowed to shrink. */
+#page-content, #page-content>*, main, .container, .grid, .split,
+.card, .card-body, .form-panel, .pricing-card, .auth-form,
+.bp-reference-grid>*, .bp-newsletter-row>* { min-width:0; }
+#page-content img:not(.brand img), .gallery-grid img, .card img,
+.hero-visual img, .split img { max-width:100%; }
+#page-content img { object-fit:cover; }
+#page-content :is(h1,h2,h3,h4,p,a,li,small,strong,span) { overflow-wrap:break-word; }
+#page-content .btn, #page-content button { max-width:100%; white-space:normal; }
+#page-content :is(input,select,textarea), .form-panel fieldset { min-width:0; max-width:100%; }
+#page-content :is(.table-scroll,.bp-table-scroll) { width:100%; max-width:100%; overflow-x:auto; overscroll-behavior-inline:contain; -webkit-overflow-scrolling:touch; }
+#page-content :is(.table-scroll,.bp-table-scroll) table { min-width:540px; }
+#page-content .map-frame iframe { width:100%; max-width:100%; }
+#page-content :is(.gallery-grid,.product-grid,.pricing-grid,.form-grid) > * { min-width:0; }
+#page-content .form-control, #page-content .form-select { width:100%; }
+/* Keep sticky/fixed header clear of body content at any breakpoint. */
+#site-header, .site-header { z-index:1050; }
+:where(.hero-home,.inner-hero,.section,.cta-band) { scroll-margin-top:90px; }
+/* Image-only blocks should never overflow their text columns. */
+.split>img, .split>picture, .split>.image-wrap { display:block; max-width:100%; width:100%; height:auto; aspect-ratio:3/2; object-fit:cover; }
+/* Avoid breaking address, email and form labels inside narrow footer columns. */
+.bp-footer.bp-footer-reference .bp-reference-contact a,
+.bp-footer.bp-footer-reference .bp-reference-contact span,
+.bp-footer.bp-footer-reference .bp-newsletter-feedback { overflow-wrap:anywhere; }
+.bp-footer.bp-footer-reference .bp-newsletter-input-wrap input#bp-footer-email { min-width:0!important; width:100%!important; color:#18352B!important; -webkit-text-fill-color:#18352B!important; }
+
+/* Medium laptops and large tablets: prevent navbar/navigation collisions. */
+@media (max-width:1100px) {
+  .site-header .desktop-links { display:none!important; }
+  .site-header .hamburger { display:inline-grid!important; flex:none; }
+  .site-header .header-inner { gap:clamp(6px,1.5vw,16px); }
+  .site-header .header-controls { flex:0 0 auto; gap:clamp(4px,.8vw,10px); }
+  .site-header .auth-slot { display:none!important; }
+  .site-header .mobile-menu { max-height:calc(100dvh - 70px); overflow-y:auto; overscroll-behavior:contain; }
+  .site-header .mobile-menu.open { display:block; }
+  .site-header .mobile-menu nav { min-width:0; }
+  .site-header .mobile-menu .nav-link { width:100%; min-width:0; }
+  .site-header .mobile-menu .home-nav-menu { max-width:100%; }
+  .site-header .mobile-auth { display:block; }
+  #page-content .grid-3 { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  #page-content .pricing-grid { grid-template-columns:repeat(2,minmax(0,1fr)); align-items:stretch; }
+  #page-content .pricing-card { min-width:0; }
+  /* Undo desktop-only inline columns on the Contact booking form. */
+  #page-content .container.split[style*="grid-template-columns"] { grid-template-columns:1fr!important; }
+  #page-content .container.split[style*="grid-template-columns"] > * { width:100%; min-width:0; }
+}
+
+/* Tablet (including small landscape layouts). */
+@media (min-width:701px) and (max-width:1024px) {
+  #page-content .hero-split { grid-template-columns:repeat(2,minmax(0,1fr)); gap:clamp(18px,3vw,34px); }
+  #page-content .hero-visual { height:clamp(280px,40vw,440px); }
+  #page-content .hero-home h1 { font-size:clamp(2.1rem,4.2vw,3.8rem); }
+  #page-content .split { gap:clamp(18px,3vw,35px); }
+  #page-content .form-panel { padding:clamp(18px,3vw,28px); }
+  #page-content .pricing-inner { padding:clamp(16px,2vw,26px); }
+  #page-content .plan-price { font-size:clamp(1.6rem,2.9vw,2.6rem); white-space:normal; }
+  /* Full-page auth keeps both visual and form; form can scroll, never clip. */
+  #page-content .auth-shell-redesign { height:auto; min-height:calc(100svh - 76px); overflow:visible; }
+  #page-content .auth-form-area { min-width:0; height:auto; overflow:visible; padding:26px; }
+  #page-content .auth-photo-premium { height:auto; min-height:0; }
+}
+
+/* Mobile and small tablets: use genuine single-column content where needed. */
+@media (max-width:700px) {
+  .site-header .header-inner { height:68px; }
+  body { padding-top:68px; }
+  html { scroll-padding-top:76px; }
+  .site-header .mobile-menu { max-height:calc(100dvh - 68px); }
+  #page-content .section { padding-block:clamp(40px,7vw,62px); }
+  #page-content .container { max-width:100%; }
+  #page-content .grid, #page-content .grid-2, #page-content .grid-3,
+  #page-content .pricing-grid, #page-content .form-grid { grid-template-columns:minmax(0,1fr); }
+  #page-content .split,
+  #page-content .hero-split { grid-template-columns:minmax(0,1fr)!important; }
+  #page-content .container.split[style*="grid-template-columns"] { grid-template-columns:1fr!important; }
+  #page-content .hero-home { min-height:0!important; }
+  #page-content .hero-home .hero-split { padding-block:clamp(38px,7vw,60px); min-height:0!important; }
+  #page-content .hero-home .hero-copy { min-width:0; }
+  #page-content .hero-home h1 { font-size:clamp(2rem,8.5vw,3.4rem); line-height:1.14; }
+  #page-content .hero-visual { width:100%; height:clamp(220px,64vw,370px); }
+  #page-content .inner-hero { min-height:0; padding-block:clamp(48px,9vw,82px); }
+  #page-content .inner-hero h1 { font-size:clamp(2rem,8vw,3.4rem); }
+  #page-content .cta-band .container { min-width:0; }
+  #page-content .cta-band :is(.btn,.actions) { max-width:100%; }
+  #page-content .split>img, #page-content .split>picture { aspect-ratio:3/2; height:auto!important; }
+  #page-content .pricing-grid { margin-block:26px; }
+  #page-content .pricing-inner { padding:clamp(15px,5vw,26px); }
+  #page-content .plan-price { white-space:normal; font-size:clamp(1.7rem,7vw,2.5rem); }
+  #page-content .form-panel { padding:clamp(15px,4vw,24px); }
+  #page-content .form-grid .wide { grid-column:auto!important; }
+  #page-content :is(.filterbar,.hero-actions,.actions) { flex-wrap:wrap; }
+  #page-content .gallery-grid img { max-height:400px; }
+  /* Older auth CSS hid the photo; keep a compact, readable visual instead. */
+  #page-content .auth-shell-redesign { display:grid; grid-template-columns:1fr!important; height:auto!important; min-height:calc(100svh - 68px); overflow:visible!important; }
+  #page-content .auth-photo-premium,
+  [dir=rtl] #page-content .auth-photo-premium { display:block!important; grid-column:1!important; grid-row:auto!important; height:auto!important; min-height:190px!important; padding:25px!important; }
+  #page-content .auth-photo-premium h2 { font-size:clamp(1.7rem,6vw,2.4rem); }
+  #page-content .auth-photo-premium .auth-trust { margin-top:12px; gap:8px; }
+  #page-content .auth-form-area,
+  [dir=rtl] #page-content .auth-form-area { grid-column:1!important; grid-row:auto!important; width:100%; padding:clamp(18px,5vw,32px); height:auto; overflow:visible; }
+  #page-content .auth-shell-redesign .form-panel { padding:clamp(15px,4vw,24px); }
+  #page-content .auth-shell-redesign .social-buttons { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .bp-footer.bp-footer-reference .bp-newsletter-action { min-width:0!important; }
+}
+
+@media (max-width:420px) {
+  .site-header .header-inner { gap:5px; }
+  .site-header .brand { gap:6px; min-width:0; }
+  .site-header .brand img { width:31px; height:31px; flex-shrink:0; }
+  .site-header .brand-words strong { font-size:clamp(.82rem,3.8vw,1rem); letter-spacing:-.05em; }
+  .site-header .brand-words small { font-size:.65rem; }
+  .site-header .header-controls { gap:4px; }
+  .site-header .header-controls .icon-btn { width:34px; min-width:34px; height:34px; padding:0; }
+  .site-header .header-controls [data-rtl-toggle] { font-size:.68rem; }
+  #page-content :is(.hero-home,.inner-hero) h1 { overflow-wrap:anywhere; }
+  #page-content .section-head h2 { font-size:clamp(1.55rem,7vw,2.35rem); }
+  #page-content .hero-visual { height:clamp(200px,62vw,285px); }
+  .bp-footer.bp-footer-reference .bp-newsletter-form { grid-template-columns:minmax(0,1fr)!important; }
+  .bp-footer.bp-footer-reference .bp-newsletter-form button { width:100%!important; }
+  .bp-footer.bp-footer-reference .bp-newsletter-input-wrap { min-width:0!important; }
+  #page-content .auth-shell-redesign .social-buttons { grid-template-columns:minmax(0,1fr); }
+}
+
+/* Focus, keyboard interaction and reduced-motion safety. */
+.site-header :is(button,a):focus-visible, #page-content :is(button,a,input,textarea,select):focus-visible,
+.bp-footer.bp-footer-reference :is(a,input,button):focus-visible { outline:3px solid #D4A65D; outline-offset:3px; }
+@media (prefers-reduced-motion:reduce) {
+  #page-content *, .site-header *, .bp-footer * { scroll-behavior:auto!important; animation-duration:.01ms!important; transition-duration:.01ms!important; }
+}
+
+/* On phones, show each pricing-comparison value as a stacked full-width row.
+   No hidden/off-screen 'Choose Plan' buttons, including in RTL. */
+@media(max-width:700px) {
+  #page-content .bp-table-scroll { overflow-x:visible; }
+  #page-content .bp-table-scroll .bp-plan-table { display:block; width:100%; min-width:0!important; border-collapse:separate; }
+  #page-content .bp-plan-table thead { display:none; }
+  #page-content .bp-plan-table tbody { display:grid; grid-template-columns:minmax(0,1fr); gap:12px; padding:10px; }
+  #page-content .bp-plan-table tbody tr { display:grid; grid-template-columns:minmax(0,1fr); width:100%; border:1px solid var(--border); border-radius:11px; overflow:hidden; background:var(--surface); }
+  #page-content .bp-plan-table tbody tr > :is(th,td) { display:block; min-width:0; width:100%; text-align:start; border:0; white-space:normal; padding:10px 14px; overflow-wrap:anywhere; }
+  #page-content .bp-plan-table tbody tr > th { background:#183C32; color:#fff; font-weight:700; }
+  #page-content .bp-plan-table tbody tr > td { border-top:1px solid var(--border); }
+  #page-content .bp-plan-table tbody tr > td:nth-child(2)::before { content:'Basic: '; font-weight:700; }
+  #page-content .bp-plan-table tbody tr > td:nth-child(3)::before { content:'Standard: '; font-weight:700; }
+  #page-content .bp-plan-table tbody tr > td:nth-child(4)::before { content:'Premium: '; font-weight:700; }
+  #page-content .bp-plan-table tbody tr > td .btn { display:inline-flex; max-width:100%; white-space:normal; }
+  #page-content .bp-plan-table tbody .bp-featured-col { background:rgba(212,166,93,.12); }
+  #page-content .bp-table-scroll:focus-visible { outline:3px solid #D4A65D; outline-offset:3px; }
+}
+
+/* Visibility regression correction: an old final override hid the actual hero
+   <img> on both home layouts. Retain the original hero imagery, with legible copy. */
+#page-content .hero-home { position:relative!important; overflow:hidden!important; }
+#page-content .hero-home .hero-split { position:static!important; isolation:isolate; }
+#page-content .hero-home .hero-visual { display:block!important; position:absolute!important; inset:0!important; z-index:0!important; width:100%!important; height:100%!important; pointer-events:none; }
+#page-content .hero-home .hero-visual img { display:block!important; width:100%!important; height:100%!important; object-fit:cover!important; object-position:center!important; opacity:1!important; }
+#page-content .hero-home .hero-visual::after { background:linear-gradient(90deg,rgba(3,22,15,.76),rgba(3,22,15,.52) 55%,rgba(3,22,15,.24))!important; }
+#page-content .hero-home .hero-copy { position:relative!important; z-index:2!important; }
+[dir=rtl] #page-content .hero-home .hero-visual::after { background:linear-gradient(270deg,rgba(3,22,15,.76),rgba(3,22,15,.52) 55%,rgba(3,22,15,.24))!important; }
+@media (max-width:700px) {
+  #page-content .hero-home .hero-visual::after,
+  [dir=rtl] #page-content .hero-home .hero-visual::after { background:linear-gradient(0deg,rgba(3,22,15,.68),rgba(3,22,15,.63))!important; }
+  /* Sign In remains the first visible task; full imagery stays available below. */
+  #page-content .auth-shell-redesign .auth-form-area,
+  [dir=rtl] #page-content .auth-shell-redesign .auth-form-area { grid-row:1!important; }
+  #page-content .auth-shell-redesign .auth-photo-premium,
+  [dir=rtl] #page-content .auth-shell-redesign .auth-photo-premium { grid-row:2!important; }
+}
+
+
+/* Restore original full-bleed home heroes: remove duplicate responsive hero image layer
+   that introduced side dark bars in local rendering. Keep all other layouts unchanged. */
+#page-content .hero-home { background-size:cover !important; background-position:center center !important; }
+#page-content .hero-home .hero-visual { display:none !important; }
+#page-content .hero-home .hero-copy { position:relative !important; z-index:2 !important; }
